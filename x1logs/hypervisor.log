@@ -1,0 +1,1176 @@
+[2022-07-10 11:21:20] Logfile Opened
+[2022-07-10 11:21:20] (XEN) Built-in command line: ept=exec-sp spec-ctrl=unpriv-mmio
+[2022-07-10 11:21:20] (XEN) parameter "xen-pciback.passthrough" unknown!
+[2022-07-10 11:21:20] (XEN) parameter "xen-pciback.hide" unknown!
+[2022-07-10 11:21:20] (XEN) parameter "rd.qubes.hide_pci" unknown!
+[2022-07-10 11:21:20] (XEN) parameter "no-real-mode" unknown!
+[2022-07-10 11:21:20]  Xen 4.14.5
+[2022-07-10 11:21:20] (XEN) Xen version 4.14.5 (mockbuild@[unknown]) (gcc (GCC) 10.3.1 20210422 (Red Hat 10.3.1-1)) debug=n  Tue Jul  5 00:00:00 UTC 2022
+[2022-07-10 11:21:20] (XEN) Latest ChangeSet: 
+[2022-07-10 11:21:20] (XEN) Bootloader: GRUB 2.04
+[2022-07-10 11:21:20] (XEN) Command line: placeholder console=none dom0_mem=min:1024M dom0_mem=max:4096M ucode=scan smt=off gnttab_max_frames=2048 gnttab_max_maptrack_frames=4096 xen-pciback.passthrough=1 xen-pciback.hide=(00:14.3) rd.qubes.hide_pci=00:14.3 no-real-mode edd=off
+[2022-07-10 11:21:20] (XEN) Xen image load base address: 0x87200000
+[2022-07-10 11:21:20] (XEN) Video information:
+[2022-07-10 11:21:20] (XEN)  VGA is graphics mode 2160x1350, 32 bpp
+[2022-07-10 11:21:20] (XEN) Disc information:
+[2022-07-10 11:21:20] (XEN)  Found 0 MBR signatures
+[2022-07-10 11:21:20] (XEN)  Found 1 EDD information structures
+[2022-07-10 11:21:20] (XEN) Enabling Supervisor Shadow Stacks
+[2022-07-10 11:21:20] (XEN) Enabling Indirect Branch Tracking
+[2022-07-10 11:21:20] (XEN)   - IBT disabled in UEFI Runtime Services
+[2022-07-10 11:21:20] (XEN) EFI RAM map:
+[2022-07-10 11:21:20] (XEN)  [0000000000000000, 000000000009efff] (usable)
+[2022-07-10 11:21:20] (XEN)  [000000000009f000, 00000000000fffff] (reserved)
+[2022-07-10 11:21:20] (XEN)  [0000000000100000, 000000008e36efff] (usable)
+[2022-07-10 11:21:20] (XEN)  [000000008e36f000, 000000009332efff] (reserved)
+[2022-07-10 11:21:20] (XEN)  [000000009332f000, 0000000093f2efff] (ACPI NVS)
+[2022-07-10 11:21:20] (XEN)  [0000000093f2f000, 0000000093ffefff] (ACPI data)
+[2022-07-10 11:21:20] (XEN)  [0000000093fff000, 0000000093ffffff] (usable)
+[2022-07-10 11:21:20] (XEN)  [0000000094000000, 0000000097ffffff] (reserved)
+[2022-07-10 11:21:20] (XEN)  [0000000098200000, 00000000983fffff] (reserved)
+[2022-07-10 11:21:20] (XEN)  [0000000098c00000, 00000000a07fffff] (reserved)
+[2022-07-10 11:21:20] (XEN)  [00000000c0000000, 00000000cfffffff] (reserved)
+[2022-07-10 11:21:20] (XEN)  [00000000fed20000, 00000000fed7ffff] (reserved)
+[2022-07-10 11:21:20] (XEN)  [0000000100000000, 000000085f7fffff] (usable)
+[2022-07-10 11:21:20] (XEN) ACPI: RSDP 93FFE014, 0024 (r2 LENOVO)
+[2022-07-10 11:21:20] (XEN) ACPI: XSDT 93FFC188, 0144 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:21:20] (XEN) ACPI: FACP 90091000, 0114 (r6 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:21:20] (XEN) ACPI: DSDT 9003F000, 4DDA5 (r2 LENOVO ICL             2       1000013)
+[2022-07-10 11:21:20] (XEN) ACPI: FACS 93E54000, 0040
+[2022-07-10 11:21:20] (XEN) ACPI: SSDT 9014A000, 038C (r2 LENOVO Pmax_Dev        1 INTL 20200717)
+[2022-07-10 11:21:20] (XEN) ACPI: SSDT 90132000, 5D31 (r2 LENOVO  CpuSsdt     3000 INTL 20200717)
+[2022-07-10 11:21:20] (XEN) ACPI: SSDT 90131000, 059B (r2 LENOVO    CtdpB     1000 INTL 20200717)
+[2022-07-10 11:21:20] (XEN) ACPI: SSDT 900C2000, 3832 (r2 LENOVO DptfTabl     1000 INTL 20200717)
+[2022-07-10 11:21:20] (XEN) ACPI: SSDT 90093000, 060E (r2 LENOVO Tpm2Tabl     1000 INTL 20200717)
+[2022-07-10 11:21:20] (XEN) ACPI: TPM2 90092000, 004C (r4 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:21:20] (XEN) ACPI: HPET 90090000, 0038 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:21:20] (XEN) ACPI: APIC 9008F000, 01DC (r5 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:21:20] (XEN) ACPI: MCFG 9008E000, 003C (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:21:20] (XEN) ACPI: ECDT 9008D000, 0053 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:21:20] (XEN) ACPI: SSDT 9003C000, 2ADE (r2 LENOVO AdlP_Rvp     1000 INTL 20200717)
+[2022-07-10 11:21:20] (XEN) ACPI: SSDT 9003B000, 0189 (r2 LENOVO PID0Ssdt       10 INTL 20200717)
+[2022-07-10 11:21:20] (XEN) ACPI: SSDT 90039000, 127B (r2 LENOVO ProjSsdt       10 INTL 20200717)
+[2022-07-10 11:21:20] (XEN) ACPI: SSDT 90036000, 2B22 (r2 LENOVO  SaSsdt      3000 INTL 20200717)
+[2022-07-10 11:21:20] (XEN) ACPI: SSDT 90032000, 35CE (r2 LENOVO IgfxSsdt     3000 INTL 20200717)
+[2022-07-10 11:21:20] (XEN) ACPI: SSDT 90029000, 8822 (r2 LENOVO TcssSsdt     1000 INTL 20200717)
+[2022-07-10 11:21:20] (XEN) ACPI: SSDT 90028000, 0150 (r2 LENOVO  IpuSsdt     1000 INTL 20200717)
+[2022-07-10 11:21:20] (XEN) ACPI: LPIT 90027000, 00CC (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:21:20] (XEN) ACPI: WSMT 90026000, 0028 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:21:20] (XEN) ACPI: SSDT 90023000, 2357 (r2 LENOVO TbtTypeC        0 INTL 20200717)
+[2022-07-10 11:21:20] (XEN) ACPI: DBGP 90022000, 0034 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:21:20] (XEN) ACPI: DBG2 90021000, 0054 (r0 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:21:20] (XEN) ACPI: NHLT 90020000, 002D (r0 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:21:20] (XEN) ACPI: MSDM 9001F000, 0055 (r3 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:21:20] (XEN) ACPI: SSDT 90009000, 0E54 (r2 LENOVO UsbCTabl     1000 INTL 20200717)
+[2022-07-10 11:21:20] (XEN) ACPI: BATB 90007000, 004A (r2 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:21:20] (XEN) ACPI: DMAR 8E805000, 00A0 (r2 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:21:20] (XEN) ACPI: SSDT 8E803000, 129A (r2 LENOVO  SocGpe      3000 INTL 20200717)
+[2022-07-10 11:21:20] (XEN) ACPI: SSDT 8E7FF000, 39DA (r2 LENOVO  SocCmn      3000 INTL 20200717)
+[2022-07-10 11:21:20] (XEN) ACPI: SSDT 8E7FE000, 0144 (r2 LENOVO ADebTabl     1000 INTL 20200717)
+[2022-07-10 11:21:20] (XEN) ACPI: ASF! 8E7FD000, 00A0 (r32 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:21:20] (XEN) ACPI: BGRT 9000A000, 0038 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:21:20] (XEN) ACPI: PHAT 8E7D6000, 0598 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:21:20] (XEN) ACPI: UEFI 93E4B000, 0076 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:21:20] (XEN) ACPI: FPDT 8E7D5000, 0034 (r1 LENOVO TP-N3A       1120 PTEC     1120)
+[2022-07-10 11:21:20] (XEN) System RAM: 32475MB (33254460kB)
+[2022-07-10 11:21:20] (XEN) Domain heap initialised
+[2022-07-10 11:21:20] (XEN) ACPI: 32/64X FACS address mismatch in FADT - 93e54000/0000000000000000, using 32
+[2022-07-10 11:21:20] (XEN) IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-119
+[2022-07-10 11:21:20] (XEN) Enabling APIC mode:  Phys.  Using 1 I/O APICs
+[2022-07-10 11:21:20] (XEN) Switched to APIC driver x2apic_cluster
+[2022-07-10 11:21:20] (XEN) CPU0: TSC: 38400000 Hz * 104 / 2 = 1996800000 Hz
+[2022-07-10 11:21:20] (XEN) CPU0: bus: 100 MHz base: 2000 MHz max: 4800 MHz
+[2022-07-10 11:21:20] (XEN) CPU0: 400 ... 2000 MHz
+[2022-07-10 11:21:20] (XEN) xstate: size: 0xa88 and states: 0x207
+[2022-07-10 11:21:20] (XEN) Unrecognised CPU model 0x9a - assuming vulnerable to LazyFPU
+[2022-07-10 11:21:20] (XEN) Speculative mitigation facilities:
+[2022-07-10 11:21:20] (XEN)   Hardware hints: RDCL_NO IBRS_ALL SKIP_L1DFL MDS_NO TAA_NO SBDR_SSDP_NO FBSDP_NO PSDP_NO
+[2022-07-10 11:21:20] (XEN)   Hardware features: IBPB IBRS STIBP SSBD PSFD L1D_FLUSH MD_CLEAR
+[2022-07-10 11:21:20] (XEN)   Compiled-in support: INDIRECT_THUNK
+[2022-07-10 11:21:20] (XEN)   Xen settings: BTI-Thunk JMP, SPEC_CTRL: IBRS+ STIBP+ SSBD-, Other: IBPB BRANCH_HARDEN
+[2022-07-10 11:21:20] (XEN)   Support for HVM VMs: MSR_SPEC_CTRL RSB EAGER_FPU MD_CLEAR
+[2022-07-10 11:21:20] (XEN)   Support for PV VMs: MSR_SPEC_CTRL EAGER_FPU MD_CLEAR
+[2022-07-10 11:21:20] (XEN)   XPTI (64-bit PV only): Dom0 disabled, DomU disabled (with PCID)
+[2022-07-10 11:21:20] (XEN)   PV L1TF shadowing: Dom0 disabled, DomU disabled
+[2022-07-10 11:21:20] (XEN) Using scheduler: SMP Credit Scheduler rev2 (credit2)
+[2022-07-10 11:21:20] (XEN) Initializing Credit2 scheduler
+[2022-07-10 11:21:20] (XEN) Platform timer is 19.200MHz HPET
+[2022-07-10 11:21:20] (XEN) Detected 1996.823 MHz processor.
+[2022-07-10 11:21:20] (XEN) Unknown cachability for MFNs 0xa0-0xff
+[2022-07-10 11:21:20] (XEN) Unknown cachability for MFNs 0x98c00-0x99fff
+[2022-07-10 11:21:20] (XEN) Unknown cachability for MFNs 0x9c000-0xa07ff
+[2022-07-10 11:21:20] (XEN) Unknown cachability for MFNs 0xfed20-0xfed7f
+[2022-07-10 11:21:20] (XEN) Intel VT-d iommu 1 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-10 11:21:20] (XEN) Intel VT-d iommu 0 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-10 11:21:20] (XEN) Intel VT-d iommu 2 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-10 11:21:20] (XEN) Intel VT-d Snoop Control not enabled.
+[2022-07-10 11:21:20] (XEN) Intel VT-d Dom0 DMA Passthrough not enabled.
+[2022-07-10 11:21:20] (XEN) Intel VT-d Queued Invalidation enabled.
+[2022-07-10 11:21:20] (XEN) Intel VT-d Interrupt Remapping enabled.
+[2022-07-10 11:21:20] (XEN) Intel VT-d Posted Interrupt not enabled.
+[2022-07-10 11:21:20] (XEN) Intel VT-d Shared EPT tables enabled.
+[2022-07-10 11:21:20] (XEN) I/O virtualisation enabled
+[2022-07-10 11:21:20] (XEN)  - Dom0 mode: Relaxed
+[2022-07-10 11:21:20] (XEN) Interrupt remapping enabled
+[2022-07-10 11:21:20] (XEN) Enabled directed EOI with ioapic_ack_old on!
+[2022-07-10 11:21:20] (XEN) ENABLING IO-APIC IRQs
+[2022-07-10 11:21:20] (XEN)  -> Using old ACK method
+[2022-07-10 11:21:20] (XEN) Allocated console ring of 64 KiB.
+[2022-07-10 11:21:20] (XEN) VMX: Supported advanced features:
+[2022-07-10 11:21:20] (XEN)  - APIC MMIO access virtualisation
+[2022-07-10 11:21:20] (XEN)  - APIC TPR shadow
+[2022-07-10 11:21:20] (XEN)  - Extended Page Tables (EPT)
+[2022-07-10 11:21:20] (XEN)  - Virtual-Processor Identifiers (VPID)
+[2022-07-10 11:21:20] (XEN)  - Virtual NMI
+[2022-07-10 11:21:20] (XEN)  - MSR direct-access bitmap
+[2022-07-10 11:21:20] (XEN)  - Unrestricted Guest
+[2022-07-10 11:21:20] (XEN)  - APIC Register Virtualization
+[2022-07-10 11:21:20] (XEN)  - Virtual Interrupt Delivery
+[2022-07-10 11:21:20] (XEN)  - Posted Interrupt Processing
+[2022-07-10 11:21:20] (XEN)  - VMCS shadowing
+[2022-07-10 11:21:20] (XEN)  - VM Functions
+[2022-07-10 11:21:20] (XEN)  - Virtualisation Exceptions
+[2022-07-10 11:21:20] (XEN)  - TSC Scaling
+[2022-07-10 11:21:20] (XEN) HVM: ASIDs enabled.
+[2022-07-10 11:21:20] (XEN) HVM: VMX enabled
+[2022-07-10 11:21:20] (XEN) HVM: Hardware Assisted Paging (HAP) detected
+[2022-07-10 11:21:20] (XEN) HVM: HAP page sizes: 4kB, 2MB, 1GB
+[2022-07-10 11:21:20] (XEN) Brought up 14 CPUs
+[2022-07-10 11:21:20] (XEN) Scheduling granularity: cpu, 1 CPU per sched-resource
+[2022-07-10 11:21:20] (XEN) Dom0 has maximum 1160 PIRQs
+[2022-07-10 11:21:20] (XEN)  Xen  kernel: 64-bit, lsb, compat32
+[2022-07-10 11:21:20] (XEN)  Dom0 kernel: 64-bit, PAE, lsb, paddr 0x1000000 -> 0x4000000
+[2022-07-10 11:21:20] (XEN) PHYSICAL MEMORY ARRANGEMENT:
+[2022-07-10 11:21:20] (XEN)  Dom0 alloc.:   0000000838000000->0000000840000000 (1007383 pages to be allocated)
+[2022-07-10 11:21:20] (XEN)  Init. ramdisk: 000000085d717000->000000085f7ffa71
+[2022-07-10 11:21:20] (XEN) VIRTUAL MEMORY ARRANGEMENT:
+[2022-07-10 11:21:20] (XEN)  Loaded kernel: ffffffff81000000->ffffffff84000000
+[2022-07-10 11:21:20] (XEN)  Init. ramdisk: 0000000000000000->0000000000000000
+[2022-07-10 11:21:20] (XEN)  Phys-Mach map: 0000008000000000->0000008000800000
+[2022-07-10 11:21:20] (XEN)  Start info:    ffffffff84000000->ffffffff840004b8
+[2022-07-10 11:21:20] (XEN)  Xenstore ring: 0000000000000000->0000000000000000
+[2022-07-10 11:21:20] (XEN)  Console ring:  0000000000000000->0000000000000000
+[2022-07-10 11:21:20] (XEN)  Page tables:   ffffffff84001000->ffffffff84026000
+[2022-07-10 11:21:20] (XEN)  Boot stack:    ffffffff84026000->ffffffff84027000
+[2022-07-10 11:21:20] (XEN)  TOTAL:         ffffffff80000000->ffffffff84400000
+[2022-07-10 11:21:20] (XEN)  ENTRY ADDRESS: ffffffff831781c0
+[2022-07-10 11:21:20] (XEN) Dom0 has maximum 14 VCPUs
+[2022-07-10 11:21:20] (XEN) Initial low memory virq threshold set at 0x4000 pages.
+[2022-07-10 11:21:20] (XEN) Scrubbing Free RAM in background
+[2022-07-10 11:21:20] (XEN) Std. Loglevel: Errors and warnings
+[2022-07-10 11:21:20] (XEN) Guest Loglevel: Nothing (Rate-limited: Errors and warnings)
+[2022-07-10 11:21:20] (XEN) *** Serial input to DOM0 (type 'CTRL-a' three times to switch input)
+[2022-07-10 11:21:20] (XEN) Freed 580kB init memory
+[2022-07-10 11:21:25] (XEN) CPU10: Temperature above threshold
+[2022-07-10 11:21:25] (XEN) CPU10: Running in modulated clock mode
+[2022-07-10 11:21:40] (XEN) CPU2: Temperature above threshold
+[2022-07-10 11:21:40] (XEN) CPU2: Running in modulated clock mode
+[2022-07-10 11:21:51] (XEN) CPU6: Temperature above threshold
+[2022-07-10 11:21:51] (XEN) CPU6: Running in modulated clock mode
+[2022-07-10 11:35:58] Logfile Opened
+[2022-07-10 11:35:58] (XEN) Built-in command line: ept=exec-sp spec-ctrl=unpriv-mmio
+[2022-07-10 11:35:58] (XEN) parameter "xen-pciback.passthrough" unknown!
+[2022-07-10 11:35:58] (XEN) parameter "xen-pciback.hide" unknown!
+[2022-07-10 11:35:58] (XEN) parameter "rd.qubes.hide_pci" unknown!
+[2022-07-10 11:35:58] (XEN) parameter "no-real-mode" unknown!
+[2022-07-10 11:35:58]  Xen 4.14.5
+[2022-07-10 11:35:58] (XEN) Xen version 4.14.5 (mockbuild@[unknown]) (gcc (GCC) 10.3.1 20210422 (Red Hat 10.3.1-1)) debug=n  Tue Jul  5 00:00:00 UTC 2022
+[2022-07-10 11:35:58] (XEN) Latest ChangeSet: 
+[2022-07-10 11:35:58] (XEN) Bootloader: GRUB 2.04
+[2022-07-10 11:35:58] (XEN) Command line: placeholder console=none dom0_mem=min:1024M dom0_mem=max:4096M ucode=scan smt=off gnttab_max_frames=2048 gnttab_max_maptrack_frames=4096 xen-pciback.passthrough=1 xen-pciback.hide=(00:14.3) rd.qubes.hide_pci=00:14.3 no-real-mode edd=off
+[2022-07-10 11:35:58] (XEN) Xen image load base address: 0x87600000
+[2022-07-10 11:35:58] (XEN) Video information:
+[2022-07-10 11:35:58] (XEN)  VGA is graphics mode 2160x1350, 32 bpp
+[2022-07-10 11:35:58] (XEN) Disc information:
+[2022-07-10 11:35:58] (XEN)  Found 0 MBR signatures
+[2022-07-10 11:35:58] (XEN)  Found 1 EDD information structures
+[2022-07-10 11:35:58] (XEN) Enabling Supervisor Shadow Stacks
+[2022-07-10 11:35:58] (XEN) Enabling Indirect Branch Tracking
+[2022-07-10 11:35:58] (XEN)   - IBT disabled in UEFI Runtime Services
+[2022-07-10 11:35:58] (XEN) EFI RAM map:
+[2022-07-10 11:35:58] (XEN)  [0000000000000000, 000000000009efff] (usable)
+[2022-07-10 11:35:58] (XEN)  [000000000009f000, 00000000000fffff] (reserved)
+[2022-07-10 11:35:58] (XEN)  [0000000000100000, 000000008e36efff] (usable)
+[2022-07-10 11:35:58] (XEN)  [000000008e36f000, 000000009332efff] (reserved)
+[2022-07-10 11:35:58] (XEN)  [000000009332f000, 0000000093f2efff] (ACPI NVS)
+[2022-07-10 11:35:58] (XEN)  [0000000093f2f000, 0000000093ffefff] (ACPI data)
+[2022-07-10 11:35:58] (XEN)  [0000000093fff000, 0000000093ffffff] (usable)
+[2022-07-10 11:35:58] (XEN)  [0000000094000000, 0000000097ffffff] (reserved)
+[2022-07-10 11:35:58] (XEN)  [0000000098200000, 00000000983fffff] (reserved)
+[2022-07-10 11:35:58] (XEN)  [0000000098c00000, 00000000a07fffff] (reserved)
+[2022-07-10 11:35:58] (XEN)  [00000000c0000000, 00000000cfffffff] (reserved)
+[2022-07-10 11:35:58] (XEN)  [00000000fed20000, 00000000fed7ffff] (reserved)
+[2022-07-10 11:35:58] (XEN)  [0000000100000000, 000000085f7fffff] (usable)
+[2022-07-10 11:35:58] (XEN) ACPI: RSDP 93FFE014, 0024 (r2 LENOVO)
+[2022-07-10 11:35:58] (XEN) ACPI: XSDT 93FFC188, 0144 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:35:58] (XEN) ACPI: FACP 90091000, 0114 (r6 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:35:58] (XEN) ACPI: DSDT 9003F000, 4DDA5 (r2 LENOVO ICL             2       1000013)
+[2022-07-10 11:35:58] (XEN) ACPI: FACS 93E54000, 0040
+[2022-07-10 11:35:58] (XEN) ACPI: SSDT 9014A000, 038C (r2 LENOVO Pmax_Dev        1 INTL 20200717)
+[2022-07-10 11:35:58] (XEN) ACPI: SSDT 90132000, 5D31 (r2 LENOVO  CpuSsdt     3000 INTL 20200717)
+[2022-07-10 11:35:58] (XEN) ACPI: SSDT 90131000, 059B (r2 LENOVO    CtdpB     1000 INTL 20200717)
+[2022-07-10 11:35:58] (XEN) ACPI: SSDT 900C2000, 3832 (r2 LENOVO DptfTabl     1000 INTL 20200717)
+[2022-07-10 11:35:58] (XEN) ACPI: SSDT 90093000, 060E (r2 LENOVO Tpm2Tabl     1000 INTL 20200717)
+[2022-07-10 11:35:58] (XEN) ACPI: TPM2 90092000, 004C (r4 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:35:58] (XEN) ACPI: HPET 90090000, 0038 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:35:58] (XEN) ACPI: APIC 9008F000, 01DC (r5 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:35:58] (XEN) ACPI: MCFG 9008E000, 003C (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:35:58] (XEN) ACPI: ECDT 9008D000, 0053 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:35:58] (XEN) ACPI: SSDT 9003C000, 2ADE (r2 LENOVO AdlP_Rvp     1000 INTL 20200717)
+[2022-07-10 11:35:58] (XEN) ACPI: SSDT 9003B000, 0189 (r2 LENOVO PID0Ssdt       10 INTL 20200717)
+[2022-07-10 11:35:58] (XEN) ACPI: SSDT 90039000, 127B (r2 LENOVO ProjSsdt       10 INTL 20200717)
+[2022-07-10 11:35:58] (XEN) ACPI: SSDT 90036000, 2B22 (r2 LENOVO  SaSsdt      3000 INTL 20200717)
+[2022-07-10 11:35:58] (XEN) ACPI: SSDT 90032000, 35CE (r2 LENOVO IgfxSsdt     3000 INTL 20200717)
+[2022-07-10 11:35:58] (XEN) ACPI: SSDT 90029000, 8822 (r2 LENOVO TcssSsdt     1000 INTL 20200717)
+[2022-07-10 11:35:58] (XEN) ACPI: SSDT 90028000, 0150 (r2 LENOVO  IpuSsdt     1000 INTL 20200717)
+[2022-07-10 11:35:58] (XEN) ACPI: LPIT 90027000, 00CC (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:35:58] (XEN) ACPI: WSMT 90026000, 0028 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:35:58] (XEN) ACPI: SSDT 90023000, 2357 (r2 LENOVO TbtTypeC        0 INTL 20200717)
+[2022-07-10 11:35:58] (XEN) ACPI: DBGP 90022000, 0034 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:35:58] (XEN) ACPI: DBG2 90021000, 0054 (r0 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:35:58] (XEN) ACPI: NHLT 90020000, 002D (r0 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:35:58] (XEN) ACPI: MSDM 9001F000, 0055 (r3 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:35:58] (XEN) ACPI: SSDT 90009000, 0E54 (r2 LENOVO UsbCTabl     1000 INTL 20200717)
+[2022-07-10 11:35:58] (XEN) ACPI: BATB 90007000, 004A (r2 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:35:58] (XEN) ACPI: DMAR 8E805000, 00A0 (r2 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:35:58] (XEN) ACPI: SSDT 8E803000, 129A (r2 LENOVO  SocGpe      3000 INTL 20200717)
+[2022-07-10 11:35:58] (XEN) ACPI: SSDT 8E7FF000, 39DA (r2 LENOVO  SocCmn      3000 INTL 20200717)
+[2022-07-10 11:35:58] (XEN) ACPI: SSDT 8E7FE000, 0144 (r2 LENOVO ADebTabl     1000 INTL 20200717)
+[2022-07-10 11:35:58] (XEN) ACPI: ASF! 8E7FD000, 00A0 (r32 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:35:58] (XEN) ACPI: BGRT 9000A000, 0038 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:35:58] (XEN) ACPI: PHAT 8E7D6000, 0598 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:35:58] (XEN) ACPI: UEFI 93E4B000, 0076 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:35:58] (XEN) ACPI: FPDT 8E7D5000, 0034 (r1 LENOVO TP-N3A       1120 PTEC     1120)
+[2022-07-10 11:35:58] (XEN) System RAM: 32475MB (33254460kB)
+[2022-07-10 11:35:58] (XEN) Domain heap initialised
+[2022-07-10 11:35:58] (XEN) ACPI: 32/64X FACS address mismatch in FADT - 93e54000/0000000000000000, using 32
+[2022-07-10 11:35:58] (XEN) IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-119
+[2022-07-10 11:35:58] (XEN) Enabling APIC mode:  Phys.  Using 1 I/O APICs
+[2022-07-10 11:35:58] (XEN) Switched to APIC driver x2apic_cluster
+[2022-07-10 11:35:58] (XEN) CPU0: TSC: 38400000 Hz * 104 / 2 = 1996800000 Hz
+[2022-07-10 11:35:58] (XEN) CPU0: bus: 100 MHz base: 2000 MHz max: 4800 MHz
+[2022-07-10 11:35:58] (XEN) CPU0: 400 ... 2000 MHz
+[2022-07-10 11:35:58] (XEN) xstate: size: 0xa88 and states: 0x207
+[2022-07-10 11:35:58] (XEN) Unrecognised CPU model 0x9a - assuming vulnerable to LazyFPU
+[2022-07-10 11:35:58] (XEN) Speculative mitigation facilities:
+[2022-07-10 11:35:58] (XEN)   Hardware hints: RDCL_NO IBRS_ALL SKIP_L1DFL MDS_NO TAA_NO SBDR_SSDP_NO FBSDP_NO PSDP_NO
+[2022-07-10 11:35:58] (XEN)   Hardware features: IBPB IBRS STIBP SSBD PSFD L1D_FLUSH MD_CLEAR
+[2022-07-10 11:35:58] (XEN)   Compiled-in support: INDIRECT_THUNK
+[2022-07-10 11:35:58] (XEN)   Xen settings: BTI-Thunk JMP, SPEC_CTRL: IBRS+ STIBP+ SSBD-, Other: IBPB BRANCH_HARDEN
+[2022-07-10 11:35:58] (XEN)   Support for HVM VMs: MSR_SPEC_CTRL RSB EAGER_FPU MD_CLEAR
+[2022-07-10 11:35:58] (XEN)   Support for PV VMs: MSR_SPEC_CTRL EAGER_FPU MD_CLEAR
+[2022-07-10 11:35:58] (XEN)   XPTI (64-bit PV only): Dom0 disabled, DomU disabled (with PCID)
+[2022-07-10 11:35:58] (XEN)   PV L1TF shadowing: Dom0 disabled, DomU disabled
+[2022-07-10 11:35:58] (XEN) Using scheduler: SMP Credit Scheduler rev2 (credit2)
+[2022-07-10 11:35:58] (XEN) Initializing Credit2 scheduler
+[2022-07-10 11:35:58] (XEN) Platform timer is 19.200MHz HPET
+[2022-07-10 11:35:58] (XEN) Detected 1996.820 MHz processor.
+[2022-07-10 11:35:58] (XEN) Unknown cachability for MFNs 0xa0-0xff
+[2022-07-10 11:35:58] (XEN) Unknown cachability for MFNs 0x98c00-0x99fff
+[2022-07-10 11:35:58] (XEN) Unknown cachability for MFNs 0x9c000-0xa07ff
+[2022-07-10 11:35:58] (XEN) Unknown cachability for MFNs 0xfed20-0xfed7f
+[2022-07-10 11:35:58] (XEN) Intel VT-d iommu 1 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-10 11:35:58] (XEN) Intel VT-d iommu 0 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-10 11:35:58] (XEN) Intel VT-d iommu 2 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-10 11:35:58] (XEN) Intel VT-d Snoop Control not enabled.
+[2022-07-10 11:35:58] (XEN) Intel VT-d Dom0 DMA Passthrough not enabled.
+[2022-07-10 11:35:58] (XEN) Intel VT-d Queued Invalidation enabled.
+[2022-07-10 11:35:58] (XEN) Intel VT-d Interrupt Remapping enabled.
+[2022-07-10 11:35:58] (XEN) Intel VT-d Posted Interrupt not enabled.
+[2022-07-10 11:35:58] (XEN) Intel VT-d Shared EPT tables enabled.
+[2022-07-10 11:35:58] (XEN) I/O virtualisation enabled
+[2022-07-10 11:35:58] (XEN)  - Dom0 mode: Relaxed
+[2022-07-10 11:35:58] (XEN) Interrupt remapping enabled
+[2022-07-10 11:35:58] (XEN) Enabled directed EOI with ioapic_ack_old on!
+[2022-07-10 11:35:58] (XEN) ENABLING IO-APIC IRQs
+[2022-07-10 11:35:58] (XEN)  -> Using old ACK method
+[2022-07-10 11:35:58] (XEN) Allocated console ring of 64 KiB.
+[2022-07-10 11:35:58] (XEN) VMX: Supported advanced features:
+[2022-07-10 11:35:58] (XEN)  - APIC MMIO access virtualisation
+[2022-07-10 11:35:58] (XEN)  - APIC TPR shadow
+[2022-07-10 11:35:58] (XEN)  - Extended Page Tables (EPT)
+[2022-07-10 11:35:58] (XEN)  - Virtual-Processor Identifiers (VPID)
+[2022-07-10 11:35:58] (XEN)  - Virtual NMI
+[2022-07-10 11:35:58] (XEN)  - MSR direct-access bitmap
+[2022-07-10 11:35:58] (XEN)  - Unrestricted Guest
+[2022-07-10 11:35:58] (XEN)  - APIC Register Virtualization
+[2022-07-10 11:35:58] (XEN)  - Virtual Interrupt Delivery
+[2022-07-10 11:35:58] (XEN)  - Posted Interrupt Processing
+[2022-07-10 11:35:58] (XEN)  - VMCS shadowing
+[2022-07-10 11:35:58] (XEN)  - VM Functions
+[2022-07-10 11:35:58] (XEN)  - Virtualisation Exceptions
+[2022-07-10 11:35:58] (XEN)  - TSC Scaling
+[2022-07-10 11:35:58] (XEN) HVM: ASIDs enabled.
+[2022-07-10 11:35:58] (XEN) HVM: VMX enabled
+[2022-07-10 11:35:58] (XEN) HVM: Hardware Assisted Paging (HAP) detected
+[2022-07-10 11:35:58] (XEN) HVM: HAP page sizes: 4kB, 2MB, 1GB
+[2022-07-10 11:35:58] (XEN) Brought up 14 CPUs
+[2022-07-10 11:35:58] (XEN) Scheduling granularity: cpu, 1 CPU per sched-resource
+[2022-07-10 11:35:58] (XEN) Dom0 has maximum 1160 PIRQs
+[2022-07-10 11:35:58] (XEN)  Xen  kernel: 64-bit, lsb, compat32
+[2022-07-10 11:35:58] (XEN)  Dom0 kernel: 64-bit, PAE, lsb, paddr 0x1000000 -> 0x4000000
+[2022-07-10 11:35:58] (XEN) PHYSICAL MEMORY ARRANGEMENT:
+[2022-07-10 11:35:58] (XEN)  Dom0 alloc.:   0000000838000000->0000000840000000 (1007383 pages to be allocated)
+[2022-07-10 11:35:58] (XEN)  Init. ramdisk: 000000085d717000->000000085f7ffa71
+[2022-07-10 11:35:58] (XEN) VIRTUAL MEMORY ARRANGEMENT:
+[2022-07-10 11:35:58] (XEN)  Loaded kernel: ffffffff81000000->ffffffff84000000
+[2022-07-10 11:35:58] (XEN)  Init. ramdisk: 0000000000000000->0000000000000000
+[2022-07-10 11:35:58] (XEN)  Phys-Mach map: 0000008000000000->0000008000800000
+[2022-07-10 11:35:58] (XEN)  Start info:    ffffffff84000000->ffffffff840004b8
+[2022-07-10 11:35:58] (XEN)  Xenstore ring: 0000000000000000->0000000000000000
+[2022-07-10 11:35:58] (XEN)  Console ring:  0000000000000000->0000000000000000
+[2022-07-10 11:35:58] (XEN)  Page tables:   ffffffff84001000->ffffffff84026000
+[2022-07-10 11:35:58] (XEN)  Boot stack:    ffffffff84026000->ffffffff84027000
+[2022-07-10 11:35:58] (XEN)  TOTAL:         ffffffff80000000->ffffffff84400000
+[2022-07-10 11:35:58] (XEN)  ENTRY ADDRESS: ffffffff831781c0
+[2022-07-10 11:35:58] (XEN) Dom0 has maximum 14 VCPUs
+[2022-07-10 11:35:58] (XEN) Initial low memory virq threshold set at 0x4000 pages.
+[2022-07-10 11:35:58] (XEN) Scrubbing Free RAM in background
+[2022-07-10 11:35:58] (XEN) Std. Loglevel: Errors and warnings
+[2022-07-10 11:35:58] (XEN) Guest Loglevel: Nothing (Rate-limited: Errors and warnings)
+[2022-07-10 11:35:58] (XEN) *** Serial input to DOM0 (type 'CTRL-a' three times to switch input)
+[2022-07-10 11:35:58] (XEN) Freed 580kB init memory
+[2022-07-10 11:42:20] Logfile Opened
+[2022-07-10 11:42:20] (XEN) Built-in command line: ept=exec-sp spec-ctrl=unpriv-mmio
+[2022-07-10 11:42:20] (XEN) parameter "xen-pciback.passthrough" unknown!
+[2022-07-10 11:42:20] (XEN) parameter "xen-pciback.hide" unknown!
+[2022-07-10 11:42:20] (XEN) parameter "rd.qubes.hide_pci" unknown!
+[2022-07-10 11:42:20] (XEN) parameter "no-real-mode" unknown!
+[2022-07-10 11:42:20]  Xen 4.14.5
+[2022-07-10 11:42:20] (XEN) Xen version 4.14.5 (mockbuild@[unknown]) (gcc (GCC) 10.3.1 20210422 (Red Hat 10.3.1-1)) debug=n  Tue Jul  5 00:00:00 UTC 2022
+[2022-07-10 11:42:20] (XEN) Latest ChangeSet: 
+[2022-07-10 11:42:20] (XEN) Bootloader: GRUB 2.04
+[2022-07-10 11:42:20] (XEN) Command line: placeholder console=none dom0_mem=min:1024M dom0_mem=max:4096M ucode=scan smt=off gnttab_max_frames=2048 gnttab_max_maptrack_frames=4096 xen-pciback.passthrough=1 xen-pciback.hide=(00:14.3) rd.qubes.hide_pci=00:14.3 no-real-mode edd=off
+[2022-07-10 11:42:20] (XEN) Xen image load base address: 0x87200000
+[2022-07-10 11:42:20] (XEN) Video information:
+[2022-07-10 11:42:20] (XEN)  VGA is graphics mode 2160x1350, 32 bpp
+[2022-07-10 11:42:20] (XEN) Disc information:
+[2022-07-10 11:42:20] (XEN)  Found 0 MBR signatures
+[2022-07-10 11:42:20] (XEN)  Found 1 EDD information structures
+[2022-07-10 11:42:20] (XEN) Enabling Supervisor Shadow Stacks
+[2022-07-10 11:42:20] (XEN) Enabling Indirect Branch Tracking
+[2022-07-10 11:42:20] (XEN)   - IBT disabled in UEFI Runtime Services
+[2022-07-10 11:42:20] (XEN) EFI RAM map:
+[2022-07-10 11:42:20] (XEN)  [0000000000000000, 000000000009efff] (usable)
+[2022-07-10 11:42:20] (XEN)  [000000000009f000, 00000000000fffff] (reserved)
+[2022-07-10 11:42:20] (XEN)  [0000000000100000, 000000008e36efff] (usable)
+[2022-07-10 11:42:20] (XEN)  [000000008e36f000, 000000009332efff] (reserved)
+[2022-07-10 11:42:20] (XEN)  [000000009332f000, 0000000093f2efff] (ACPI NVS)
+[2022-07-10 11:42:20] (XEN)  [0000000093f2f000, 0000000093ffefff] (ACPI data)
+[2022-07-10 11:42:20] (XEN)  [0000000093fff000, 0000000093ffffff] (usable)
+[2022-07-10 11:42:20] (XEN)  [0000000094000000, 0000000097ffffff] (reserved)
+[2022-07-10 11:42:20] (XEN)  [0000000098200000, 00000000983fffff] (reserved)
+[2022-07-10 11:42:20] (XEN)  [0000000098c00000, 00000000a07fffff] (reserved)
+[2022-07-10 11:42:20] (XEN)  [00000000c0000000, 00000000cfffffff] (reserved)
+[2022-07-10 11:42:20] (XEN)  [00000000fed20000, 00000000fed7ffff] (reserved)
+[2022-07-10 11:42:20] (XEN)  [0000000100000000, 000000085f7fffff] (usable)
+[2022-07-10 11:42:20] (XEN) ACPI: RSDP 93FFE014, 0024 (r2 LENOVO)
+[2022-07-10 11:42:20] (XEN) ACPI: XSDT 93FFC188, 0144 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:42:20] (XEN) ACPI: FACP 90091000, 0114 (r6 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:42:20] (XEN) ACPI: DSDT 9003F000, 4DDA5 (r2 LENOVO ICL             2       1000013)
+[2022-07-10 11:42:20] (XEN) ACPI: FACS 93E54000, 0040
+[2022-07-10 11:42:20] (XEN) ACPI: SSDT 9014A000, 038C (r2 LENOVO Pmax_Dev        1 INTL 20200717)
+[2022-07-10 11:42:20] (XEN) ACPI: SSDT 90132000, 5D31 (r2 LENOVO  CpuSsdt     3000 INTL 20200717)
+[2022-07-10 11:42:20] (XEN) ACPI: SSDT 90131000, 059B (r2 LENOVO    CtdpB     1000 INTL 20200717)
+[2022-07-10 11:42:20] (XEN) ACPI: SSDT 900C2000, 3832 (r2 LENOVO DptfTabl     1000 INTL 20200717)
+[2022-07-10 11:42:20] (XEN) ACPI: SSDT 90093000, 060E (r2 LENOVO Tpm2Tabl     1000 INTL 20200717)
+[2022-07-10 11:42:20] (XEN) ACPI: TPM2 90092000, 004C (r4 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:42:20] (XEN) ACPI: HPET 90090000, 0038 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:42:20] (XEN) ACPI: APIC 9008F000, 01DC (r5 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:42:20] (XEN) ACPI: MCFG 9008E000, 003C (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:42:20] (XEN) ACPI: ECDT 9008D000, 0053 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:42:20] (XEN) ACPI: SSDT 9003C000, 2ADE (r2 LENOVO AdlP_Rvp     1000 INTL 20200717)
+[2022-07-10 11:42:20] (XEN) ACPI: SSDT 9003B000, 0189 (r2 LENOVO PID0Ssdt       10 INTL 20200717)
+[2022-07-10 11:42:20] (XEN) ACPI: SSDT 90039000, 127B (r2 LENOVO ProjSsdt       10 INTL 20200717)
+[2022-07-10 11:42:20] (XEN) ACPI: SSDT 90036000, 2B22 (r2 LENOVO  SaSsdt      3000 INTL 20200717)
+[2022-07-10 11:42:20] (XEN) ACPI: SSDT 90032000, 35CE (r2 LENOVO IgfxSsdt     3000 INTL 20200717)
+[2022-07-10 11:42:20] (XEN) ACPI: SSDT 90029000, 8822 (r2 LENOVO TcssSsdt     1000 INTL 20200717)
+[2022-07-10 11:42:20] (XEN) ACPI: SSDT 90028000, 0150 (r2 LENOVO  IpuSsdt     1000 INTL 20200717)
+[2022-07-10 11:42:20] (XEN) ACPI: LPIT 90027000, 00CC (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:42:20] (XEN) ACPI: WSMT 90026000, 0028 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:42:20] (XEN) ACPI: SSDT 90023000, 2357 (r2 LENOVO TbtTypeC        0 INTL 20200717)
+[2022-07-10 11:42:20] (XEN) ACPI: DBGP 90022000, 0034 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:42:20] (XEN) ACPI: DBG2 90021000, 0054 (r0 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:42:20] (XEN) ACPI: NHLT 90020000, 002D (r0 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:42:20] (XEN) ACPI: MSDM 9001F000, 0055 (r3 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:42:20] (XEN) ACPI: SSDT 90009000, 0E54 (r2 LENOVO UsbCTabl     1000 INTL 20200717)
+[2022-07-10 11:42:20] (XEN) ACPI: BATB 90007000, 004A (r2 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:42:20] (XEN) ACPI: DMAR 8E805000, 00A0 (r2 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:42:20] (XEN) ACPI: SSDT 8E803000, 129A (r2 LENOVO  SocGpe      3000 INTL 20200717)
+[2022-07-10 11:42:20] (XEN) ACPI: SSDT 8E7FF000, 39DA (r2 LENOVO  SocCmn      3000 INTL 20200717)
+[2022-07-10 11:42:20] (XEN) ACPI: SSDT 8E7FE000, 0144 (r2 LENOVO ADebTabl     1000 INTL 20200717)
+[2022-07-10 11:42:20] (XEN) ACPI: ASF! 8E7FD000, 00A0 (r32 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:42:20] (XEN) ACPI: BGRT 9000A000, 0038 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:42:20] (XEN) ACPI: PHAT 8E7D6000, 0598 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:42:20] (XEN) ACPI: UEFI 93E4B000, 0076 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 11:42:20] (XEN) ACPI: FPDT 8E7D5000, 0034 (r1 LENOVO TP-N3A       1120 PTEC     1120)
+[2022-07-10 11:42:20] (XEN) System RAM: 32475MB (33254460kB)
+[2022-07-10 11:42:20] (XEN) Domain heap initialised
+[2022-07-10 11:42:20] (XEN) ACPI: 32/64X FACS address mismatch in FADT - 93e54000/0000000000000000, using 32
+[2022-07-10 11:42:20] (XEN) IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-119
+[2022-07-10 11:42:20] (XEN) Enabling APIC mode:  Phys.  Using 1 I/O APICs
+[2022-07-10 11:42:20] (XEN) Switched to APIC driver x2apic_cluster
+[2022-07-10 11:42:20] (XEN) CPU0: TSC: 38400000 Hz * 104 / 2 = 1996800000 Hz
+[2022-07-10 11:42:20] (XEN) CPU0: bus: 100 MHz base: 2000 MHz max: 4800 MHz
+[2022-07-10 11:42:20] (XEN) CPU0: 400 ... 2000 MHz
+[2022-07-10 11:42:20] (XEN) xstate: size: 0xa88 and states: 0x207
+[2022-07-10 11:42:20] (XEN) Unrecognised CPU model 0x9a - assuming vulnerable to LazyFPU
+[2022-07-10 11:42:20] (XEN) Speculative mitigation facilities:
+[2022-07-10 11:42:20] (XEN)   Hardware hints: RDCL_NO IBRS_ALL SKIP_L1DFL MDS_NO TAA_NO SBDR_SSDP_NO FBSDP_NO PSDP_NO
+[2022-07-10 11:42:20] (XEN)   Hardware features: IBPB IBRS STIBP SSBD PSFD L1D_FLUSH MD_CLEAR
+[2022-07-10 11:42:20] (XEN)   Compiled-in support: INDIRECT_THUNK
+[2022-07-10 11:42:20] (XEN)   Xen settings: BTI-Thunk JMP, SPEC_CTRL: IBRS+ STIBP+ SSBD-, Other: IBPB BRANCH_HARDEN
+[2022-07-10 11:42:20] (XEN)   Support for HVM VMs: MSR_SPEC_CTRL RSB EAGER_FPU MD_CLEAR
+[2022-07-10 11:42:20] (XEN)   Support for PV VMs: MSR_SPEC_CTRL EAGER_FPU MD_CLEAR
+[2022-07-10 11:42:20] (XEN)   XPTI (64-bit PV only): Dom0 disabled, DomU disabled (with PCID)
+[2022-07-10 11:42:20] (XEN)   PV L1TF shadowing: Dom0 disabled, DomU disabled
+[2022-07-10 11:42:20] (XEN) Using scheduler: SMP Credit Scheduler rev2 (credit2)
+[2022-07-10 11:42:20] (XEN) Initializing Credit2 scheduler
+[2022-07-10 11:42:20] (XEN) Platform timer is 19.200MHz HPET
+[2022-07-10 11:42:20] (XEN) Detected 1996.424 MHz processor.
+[2022-07-10 11:42:20] (XEN) Unknown cachability for MFNs 0xa0-0xff
+[2022-07-10 11:42:20] (XEN) Unknown cachability for MFNs 0x98c00-0x99fff
+[2022-07-10 11:42:20] (XEN) Unknown cachability for MFNs 0x9c000-0xa07ff
+[2022-07-10 11:42:20] (XEN) Unknown cachability for MFNs 0xfed20-0xfed7f
+[2022-07-10 11:42:20] (XEN) Intel VT-d iommu 1 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-10 11:42:20] (XEN) Intel VT-d iommu 0 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-10 11:42:20] (XEN) Intel VT-d iommu 2 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-10 11:42:20] (XEN) Intel VT-d Snoop Control not enabled.
+[2022-07-10 11:42:20] (XEN) Intel VT-d Dom0 DMA Passthrough not enabled.
+[2022-07-10 11:42:20] (XEN) Intel VT-d Queued Invalidation enabled.
+[2022-07-10 11:42:20] (XEN) Intel VT-d Interrupt Remapping enabled.
+[2022-07-10 11:42:20] (XEN) Intel VT-d Posted Interrupt not enabled.
+[2022-07-10 11:42:20] (XEN) Intel VT-d Shared EPT tables enabled.
+[2022-07-10 11:42:20] (XEN) I/O virtualisation enabled
+[2022-07-10 11:42:20] (XEN)  - Dom0 mode: Relaxed
+[2022-07-10 11:42:20] (XEN) Interrupt remapping enabled
+[2022-07-10 11:42:20] (XEN) Enabled directed EOI with ioapic_ack_old on!
+[2022-07-10 11:42:20] (XEN) ENABLING IO-APIC IRQs
+[2022-07-10 11:42:20] (XEN)  -> Using old ACK method
+[2022-07-10 11:42:20] (XEN) Allocated console ring of 64 KiB.
+[2022-07-10 11:42:20] (XEN) VMX: Supported advanced features:
+[2022-07-10 11:42:20] (XEN)  - APIC MMIO access virtualisation
+[2022-07-10 11:42:20] (XEN)  - APIC TPR shadow
+[2022-07-10 11:42:20] (XEN)  - Extended Page Tables (EPT)
+[2022-07-10 11:42:20] (XEN)  - Virtual-Processor Identifiers (VPID)
+[2022-07-10 11:42:20] (XEN)  - Virtual NMI
+[2022-07-10 11:42:20] (XEN)  - MSR direct-access bitmap
+[2022-07-10 11:42:20] (XEN)  - Unrestricted Guest
+[2022-07-10 11:42:20] (XEN)  - APIC Register Virtualization
+[2022-07-10 11:42:20] (XEN)  - Virtual Interrupt Delivery
+[2022-07-10 11:42:20] (XEN)  - Posted Interrupt Processing
+[2022-07-10 11:42:20] (XEN)  - VMCS shadowing
+[2022-07-10 11:42:20] (XEN)  - VM Functions
+[2022-07-10 11:42:20] (XEN)  - Virtualisation Exceptions
+[2022-07-10 11:42:20] (XEN)  - TSC Scaling
+[2022-07-10 11:42:20] (XEN) HVM: ASIDs enabled.
+[2022-07-10 11:42:20] (XEN) HVM: VMX enabled
+[2022-07-10 11:42:20] (XEN) HVM: Hardware Assisted Paging (HAP) detected
+[2022-07-10 11:42:20] (XEN) HVM: HAP page sizes: 4kB, 2MB, 1GB
+[2022-07-10 11:42:20] (XEN) Brought up 14 CPUs
+[2022-07-10 11:42:20] (XEN) Scheduling granularity: cpu, 1 CPU per sched-resource
+[2022-07-10 11:42:20] (XEN) Dom0 has maximum 1160 PIRQs
+[2022-07-10 11:42:20] (XEN)  Xen  kernel: 64-bit, lsb, compat32
+[2022-07-10 11:42:20] (XEN)  Dom0 kernel: 64-bit, PAE, lsb, paddr 0x1000000 -> 0x4000000
+[2022-07-10 11:42:20] (XEN) PHYSICAL MEMORY ARRANGEMENT:
+[2022-07-10 11:42:20] (XEN)  Dom0 alloc.:   0000000838000000->0000000840000000 (1007383 pages to be allocated)
+[2022-07-10 11:42:20] (XEN)  Init. ramdisk: 000000085d717000->000000085f7ffa71
+[2022-07-10 11:42:20] (XEN) VIRTUAL MEMORY ARRANGEMENT:
+[2022-07-10 11:42:20] (XEN)  Loaded kernel: ffffffff81000000->ffffffff84000000
+[2022-07-10 11:42:20] (XEN)  Init. ramdisk: 0000000000000000->0000000000000000
+[2022-07-10 11:42:20] (XEN)  Phys-Mach map: 0000008000000000->0000008000800000
+[2022-07-10 11:42:20] (XEN)  Start info:    ffffffff84000000->ffffffff840004b8
+[2022-07-10 11:42:20] (XEN)  Xenstore ring: 0000000000000000->0000000000000000
+[2022-07-10 11:42:20] (XEN)  Console ring:  0000000000000000->0000000000000000
+[2022-07-10 11:42:20] (XEN)  Page tables:   ffffffff84001000->ffffffff84026000
+[2022-07-10 11:42:20] (XEN)  Boot stack:    ffffffff84026000->ffffffff84027000
+[2022-07-10 11:42:20] (XEN)  TOTAL:         ffffffff80000000->ffffffff84400000
+[2022-07-10 11:42:20] (XEN)  ENTRY ADDRESS: ffffffff831781c0
+[2022-07-10 11:42:20] (XEN) Dom0 has maximum 14 VCPUs
+[2022-07-10 11:42:20] (XEN) Initial low memory virq threshold set at 0x4000 pages.
+[2022-07-10 11:42:20] (XEN) Scrubbing Free RAM in background
+[2022-07-10 11:42:20] (XEN) Std. Loglevel: Errors and warnings
+[2022-07-10 11:42:20] (XEN) Guest Loglevel: Nothing (Rate-limited: Errors and warnings)
+[2022-07-10 11:42:20] (XEN) *** Serial input to DOM0 (type 'CTRL-a' three times to switch input)
+[2022-07-10 11:42:20] (XEN) Freed 580kB init memory
+[2022-07-10 11:42:40] (XEN) CPU6: Temperature above threshold
+[2022-07-10 11:42:40] (XEN) CPU6: Running in modulated clock mode
+[2022-07-10 11:42:40] (XEN) CPU10: Temperature above threshold
+[2022-07-10 11:42:40] (XEN) CPU10: Running in modulated clock mode
+[2022-07-10 11:42:40] (XEN) CPU2: Temperature above threshold
+[2022-07-10 11:42:40] (XEN) CPU2: Running in modulated clock mode
+[2022-07-10 12:45:18] Logfile Opened
+[2022-07-10 12:45:18] (XEN) Built-in command line: ept=exec-sp spec-ctrl=unpriv-mmio
+[2022-07-10 12:45:18] (XEN) parameter "xen-pciback.passthrough" unknown!
+[2022-07-10 12:45:18] (XEN) parameter "xen-pciback.hide" unknown!
+[2022-07-10 12:45:18] (XEN) parameter "rd.qubes.hide_pci" unknown!
+[2022-07-10 12:45:18] (XEN) parameter "no-real-mode" unknown!
+[2022-07-10 12:45:18]  Xen 4.14.5
+[2022-07-10 12:45:18] (XEN) Xen version 4.14.5 (mockbuild@[unknown]) (gcc (GCC) 10.3.1 20210422 (Red Hat 10.3.1-1)) debug=n  Tue Jul  5 00:00:00 UTC 2022
+[2022-07-10 12:45:18] (XEN) Latest ChangeSet: 
+[2022-07-10 12:45:18] (XEN) Bootloader: GRUB 2.04
+[2022-07-10 12:45:18] (XEN) Command line: placeholder console=none dom0_mem=min:1024M dom0_mem=max:4096M ucode=scan smt=off gnttab_max_frames=2048 gnttab_max_maptrack_frames=4096 xen-pciback.passthrough=1 xen-pciback.hide=(00:14.3) rd.qubes.hide_pci=00:14.3 no-real-mode edd=off
+[2022-07-10 12:45:18] (XEN) Xen image load base address: 0x87200000
+[2022-07-10 12:45:18] (XEN) Video information:
+[2022-07-10 12:45:18] (XEN)  VGA is graphics mode 2160x1350, 32 bpp
+[2022-07-10 12:45:18] (XEN) Disc information:
+[2022-07-10 12:45:18] (XEN)  Found 0 MBR signatures
+[2022-07-10 12:45:18] (XEN)  Found 1 EDD information structures
+[2022-07-10 12:45:18] (XEN) Enabling Supervisor Shadow Stacks
+[2022-07-10 12:45:18] (XEN) Enabling Indirect Branch Tracking
+[2022-07-10 12:45:18] (XEN)   - IBT disabled in UEFI Runtime Services
+[2022-07-10 12:45:18] (XEN) EFI RAM map:
+[2022-07-10 12:45:18] (XEN)  [0000000000000000, 000000000009efff] (usable)
+[2022-07-10 12:45:18] (XEN)  [000000000009f000, 00000000000fffff] (reserved)
+[2022-07-10 12:45:18] (XEN)  [0000000000100000, 000000008e36efff] (usable)
+[2022-07-10 12:45:18] (XEN)  [000000008e36f000, 000000009332efff] (reserved)
+[2022-07-10 12:45:18] (XEN)  [000000009332f000, 0000000093f2efff] (ACPI NVS)
+[2022-07-10 12:45:18] (XEN)  [0000000093f2f000, 0000000093ffefff] (ACPI data)
+[2022-07-10 12:45:18] (XEN)  [0000000093fff000, 0000000093ffffff] (usable)
+[2022-07-10 12:45:18] (XEN)  [0000000094000000, 0000000097ffffff] (reserved)
+[2022-07-10 12:45:18] (XEN)  [0000000098200000, 00000000983fffff] (reserved)
+[2022-07-10 12:45:18] (XEN)  [0000000098c00000, 00000000a07fffff] (reserved)
+[2022-07-10 12:45:18] (XEN)  [00000000c0000000, 00000000cfffffff] (reserved)
+[2022-07-10 12:45:18] (XEN)  [00000000fed20000, 00000000fed7ffff] (reserved)
+[2022-07-10 12:45:18] (XEN)  [0000000100000000, 000000085f7fffff] (usable)
+[2022-07-10 12:45:18] (XEN) ACPI: RSDP 93FFE014, 0024 (r2 LENOVO)
+[2022-07-10 12:45:18] (XEN) ACPI: XSDT 93FFC188, 0144 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 12:45:18] (XEN) ACPI: FACP 90091000, 0114 (r6 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 12:45:18] (XEN) ACPI: DSDT 9003F000, 4DDA5 (r2 LENOVO ICL             2       1000013)
+[2022-07-10 12:45:18] (XEN) ACPI: FACS 93E54000, 0040
+[2022-07-10 12:45:18] (XEN) ACPI: SSDT 9014A000, 038C (r2 LENOVO Pmax_Dev        1 INTL 20200717)
+[2022-07-10 12:45:18] (XEN) ACPI: SSDT 90132000, 5D31 (r2 LENOVO  CpuSsdt     3000 INTL 20200717)
+[2022-07-10 12:45:18] (XEN) ACPI: SSDT 90131000, 059B (r2 LENOVO    CtdpB     1000 INTL 20200717)
+[2022-07-10 12:45:18] (XEN) ACPI: SSDT 900C2000, 3832 (r2 LENOVO DptfTabl     1000 INTL 20200717)
+[2022-07-10 12:45:18] (XEN) ACPI: SSDT 90093000, 060E (r2 LENOVO Tpm2Tabl     1000 INTL 20200717)
+[2022-07-10 12:45:18] (XEN) ACPI: TPM2 90092000, 004C (r4 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 12:45:18] (XEN) ACPI: HPET 90090000, 0038 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 12:45:18] (XEN) ACPI: APIC 9008F000, 01DC (r5 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 12:45:18] (XEN) ACPI: MCFG 9008E000, 003C (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 12:45:18] (XEN) ACPI: ECDT 9008D000, 0053 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 12:45:18] (XEN) ACPI: SSDT 9003C000, 2ADE (r2 LENOVO AdlP_Rvp     1000 INTL 20200717)
+[2022-07-10 12:45:18] (XEN) ACPI: SSDT 9003B000, 0189 (r2 LENOVO PID0Ssdt       10 INTL 20200717)
+[2022-07-10 12:45:18] (XEN) ACPI: SSDT 90039000, 127B (r2 LENOVO ProjSsdt       10 INTL 20200717)
+[2022-07-10 12:45:18] (XEN) ACPI: SSDT 90036000, 2B22 (r2 LENOVO  SaSsdt      3000 INTL 20200717)
+[2022-07-10 12:45:18] (XEN) ACPI: SSDT 90032000, 35CE (r2 LENOVO IgfxSsdt     3000 INTL 20200717)
+[2022-07-10 12:45:18] (XEN) ACPI: SSDT 90029000, 8822 (r2 LENOVO TcssSsdt     1000 INTL 20200717)
+[2022-07-10 12:45:18] (XEN) ACPI: SSDT 90028000, 0150 (r2 LENOVO  IpuSsdt     1000 INTL 20200717)
+[2022-07-10 12:45:18] (XEN) ACPI: LPIT 90027000, 00CC (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 12:45:18] (XEN) ACPI: WSMT 90026000, 0028 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 12:45:18] (XEN) ACPI: SSDT 90023000, 2357 (r2 LENOVO TbtTypeC        0 INTL 20200717)
+[2022-07-10 12:45:18] (XEN) ACPI: DBGP 90022000, 0034 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 12:45:18] (XEN) ACPI: DBG2 90021000, 0054 (r0 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 12:45:18] (XEN) ACPI: NHLT 90020000, 002D (r0 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 12:45:18] (XEN) ACPI: MSDM 9001F000, 0055 (r3 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 12:45:18] (XEN) ACPI: SSDT 90009000, 0E54 (r2 LENOVO UsbCTabl     1000 INTL 20200717)
+[2022-07-10 12:45:18] (XEN) ACPI: BATB 90007000, 004A (r2 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 12:45:18] (XEN) ACPI: DMAR 8E805000, 00A0 (r2 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 12:45:18] (XEN) ACPI: SSDT 8E803000, 129A (r2 LENOVO  SocGpe      3000 INTL 20200717)
+[2022-07-10 12:45:18] (XEN) ACPI: SSDT 8E7FF000, 39DA (r2 LENOVO  SocCmn      3000 INTL 20200717)
+[2022-07-10 12:45:18] (XEN) ACPI: SSDT 8E7FE000, 0144 (r2 LENOVO ADebTabl     1000 INTL 20200717)
+[2022-07-10 12:45:18] (XEN) ACPI: ASF! 8E7FD000, 00A0 (r32 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 12:45:18] (XEN) ACPI: BGRT 9000A000, 0038 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 12:45:18] (XEN) ACPI: PHAT 8E7D6000, 0598 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 12:45:18] (XEN) ACPI: UEFI 93E4B000, 0076 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-10 12:45:18] (XEN) ACPI: FPDT 8E7D5000, 0034 (r1 LENOVO TP-N3A       1120 PTEC     1120)
+[2022-07-10 12:45:18] (XEN) System RAM: 32475MB (33254460kB)
+[2022-07-10 12:45:18] (XEN) Domain heap initialised
+[2022-07-10 12:45:18] (XEN) ACPI: 32/64X FACS address mismatch in FADT - 93e54000/0000000000000000, using 32
+[2022-07-10 12:45:18] (XEN) IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-119
+[2022-07-10 12:45:18] (XEN) Enabling APIC mode:  Phys.  Using 1 I/O APICs
+[2022-07-10 12:45:18] (XEN) Switched to APIC driver x2apic_cluster
+[2022-07-10 12:45:18] (XEN) CPU0: TSC: 38400000 Hz * 104 / 2 = 1996800000 Hz
+[2022-07-10 12:45:18] (XEN) CPU0: bus: 100 MHz base: 2000 MHz max: 4800 MHz
+[2022-07-10 12:45:18] (XEN) CPU0: 400 ... 2000 MHz
+[2022-07-10 12:45:18] (XEN) xstate: size: 0xa88 and states: 0x207
+[2022-07-10 12:45:18] (XEN) Unrecognised CPU model 0x9a - assuming vulnerable to LazyFPU
+[2022-07-10 12:45:18] (XEN) Speculative mitigation facilities:
+[2022-07-10 12:45:18] (XEN)   Hardware hints: RDCL_NO IBRS_ALL SKIP_L1DFL MDS_NO TAA_NO SBDR_SSDP_NO FBSDP_NO PSDP_NO
+[2022-07-10 12:45:18] (XEN)   Hardware features: IBPB IBRS STIBP SSBD PSFD L1D_FLUSH MD_CLEAR
+[2022-07-10 12:45:18] (XEN)   Compiled-in support: INDIRECT_THUNK
+[2022-07-10 12:45:18] (XEN)   Xen settings: BTI-Thunk JMP, SPEC_CTRL: IBRS+ STIBP+ SSBD-, Other: IBPB BRANCH_HARDEN
+[2022-07-10 12:45:18] (XEN)   Support for HVM VMs: MSR_SPEC_CTRL RSB EAGER_FPU MD_CLEAR
+[2022-07-10 12:45:18] (XEN)   Support for PV VMs: MSR_SPEC_CTRL EAGER_FPU MD_CLEAR
+[2022-07-10 12:45:18] (XEN)   XPTI (64-bit PV only): Dom0 disabled, DomU disabled (with PCID)
+[2022-07-10 12:45:18] (XEN)   PV L1TF shadowing: Dom0 disabled, DomU disabled
+[2022-07-10 12:45:18] (XEN) Using scheduler: SMP Credit Scheduler rev2 (credit2)
+[2022-07-10 12:45:18] (XEN) Initializing Credit2 scheduler
+[2022-07-10 12:45:18] (XEN) Platform timer is 19.200MHz HPET
+[2022-07-10 12:45:18] (XEN) Detected 1996.819 MHz processor.
+[2022-07-10 12:45:18] (XEN) Unknown cachability for MFNs 0xa0-0xff
+[2022-07-10 12:45:18] (XEN) Unknown cachability for MFNs 0x98c00-0x99fff
+[2022-07-10 12:45:18] (XEN) Unknown cachability for MFNs 0x9c000-0xa07ff
+[2022-07-10 12:45:18] (XEN) Unknown cachability for MFNs 0xfed20-0xfed7f
+[2022-07-10 12:45:18] (XEN) Intel VT-d iommu 1 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-10 12:45:18] (XEN) Intel VT-d iommu 0 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-10 12:45:18] (XEN) Intel VT-d iommu 2 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-10 12:45:18] (XEN) Intel VT-d Snoop Control not enabled.
+[2022-07-10 12:45:18] (XEN) Intel VT-d Dom0 DMA Passthrough not enabled.
+[2022-07-10 12:45:18] (XEN) Intel VT-d Queued Invalidation enabled.
+[2022-07-10 12:45:18] (XEN) Intel VT-d Interrupt Remapping enabled.
+[2022-07-10 12:45:18] (XEN) Intel VT-d Posted Interrupt not enabled.
+[2022-07-10 12:45:18] (XEN) Intel VT-d Shared EPT tables enabled.
+[2022-07-10 12:45:18] (XEN) I/O virtualisation enabled
+[2022-07-10 12:45:18] (XEN)  - Dom0 mode: Relaxed
+[2022-07-10 12:45:18] (XEN) Interrupt remapping enabled
+[2022-07-10 12:45:18] (XEN) Enabled directed EOI with ioapic_ack_old on!
+[2022-07-10 12:45:18] (XEN) ENABLING IO-APIC IRQs
+[2022-07-10 12:45:18] (XEN)  -> Using old ACK method
+[2022-07-10 12:45:18] (XEN) Allocated console ring of 64 KiB.
+[2022-07-10 12:45:18] (XEN) VMX: Supported advanced features:
+[2022-07-10 12:45:18] (XEN)  - APIC MMIO access virtualisation
+[2022-07-10 12:45:18] (XEN)  - APIC TPR shadow
+[2022-07-10 12:45:18] (XEN)  - Extended Page Tables (EPT)
+[2022-07-10 12:45:18] (XEN)  - Virtual-Processor Identifiers (VPID)
+[2022-07-10 12:45:18] (XEN)  - Virtual NMI
+[2022-07-10 12:45:18] (XEN)  - MSR direct-access bitmap
+[2022-07-10 12:45:18] (XEN)  - Unrestricted Guest
+[2022-07-10 12:45:18] (XEN)  - APIC Register Virtualization
+[2022-07-10 12:45:18] (XEN)  - Virtual Interrupt Delivery
+[2022-07-10 12:45:18] (XEN)  - Posted Interrupt Processing
+[2022-07-10 12:45:18] (XEN)  - VMCS shadowing
+[2022-07-10 12:45:18] (XEN)  - VM Functions
+[2022-07-10 12:45:18] (XEN)  - Virtualisation Exceptions
+[2022-07-10 12:45:18] (XEN)  - TSC Scaling
+[2022-07-10 12:45:18] (XEN) HVM: ASIDs enabled.
+[2022-07-10 12:45:18] (XEN) HVM: VMX enabled
+[2022-07-10 12:45:18] (XEN) HVM: Hardware Assisted Paging (HAP) detected
+[2022-07-10 12:45:18] (XEN) HVM: HAP page sizes: 4kB, 2MB, 1GB
+[2022-07-10 12:45:18] (XEN) Brought up 14 CPUs
+[2022-07-10 12:45:18] (XEN) Scheduling granularity: cpu, 1 CPU per sched-resource
+[2022-07-10 12:45:18] (XEN) Dom0 has maximum 1160 PIRQs
+[2022-07-10 12:45:18] (XEN)  Xen  kernel: 64-bit, lsb, compat32
+[2022-07-10 12:45:18] (XEN)  Dom0 kernel: 64-bit, PAE, lsb, paddr 0x1000000 -> 0x4000000
+[2022-07-10 12:45:18] (XEN) PHYSICAL MEMORY ARRANGEMENT:
+[2022-07-10 12:45:18] (XEN)  Dom0 alloc.:   0000000838000000->0000000840000000 (1007383 pages to be allocated)
+[2022-07-10 12:45:18] (XEN)  Init. ramdisk: 000000085d717000->000000085f7ffa71
+[2022-07-10 12:45:18] (XEN) VIRTUAL MEMORY ARRANGEMENT:
+[2022-07-10 12:45:18] (XEN)  Loaded kernel: ffffffff81000000->ffffffff84000000
+[2022-07-10 12:45:18] (XEN)  Init. ramdisk: 0000000000000000->0000000000000000
+[2022-07-10 12:45:18] (XEN)  Phys-Mach map: 0000008000000000->0000008000800000
+[2022-07-10 12:45:18] (XEN)  Start info:    ffffffff84000000->ffffffff840004b8
+[2022-07-10 12:45:18] (XEN)  Xenstore ring: 0000000000000000->0000000000000000
+[2022-07-10 12:45:18] (XEN)  Console ring:  0000000000000000->0000000000000000
+[2022-07-10 12:45:18] (XEN)  Page tables:   ffffffff84001000->ffffffff84026000
+[2022-07-10 12:45:18] (XEN)  Boot stack:    ffffffff84026000->ffffffff84027000
+[2022-07-10 12:45:18] (XEN)  TOTAL:         ffffffff80000000->ffffffff84400000
+[2022-07-10 12:45:18] (XEN)  ENTRY ADDRESS: ffffffff831781c0
+[2022-07-10 12:45:18] (XEN) Dom0 has maximum 14 VCPUs
+[2022-07-10 12:45:18] (XEN) Initial low memory virq threshold set at 0x4000 pages.
+[2022-07-10 12:45:18] (XEN) Scrubbing Free RAM in background
+[2022-07-10 12:45:18] (XEN) Std. Loglevel: Errors and warnings
+[2022-07-10 12:45:18] (XEN) Guest Loglevel: Nothing (Rate-limited: Errors and warnings)
+[2022-07-10 12:45:18] (XEN) *** Serial input to DOM0 (type 'CTRL-a' three times to switch input)
+[2022-07-10 12:45:18] (XEN) Freed 580kB init memory
+[2022-07-11 10:07:16] Logfile Opened
+[2022-07-11 10:07:16] (XEN) Built-in command line: ept=exec-sp spec-ctrl=unpriv-mmio
+[2022-07-11 10:07:16] (XEN) parameter "xen-pciback.passthrough" unknown!
+[2022-07-11 10:07:16] (XEN) parameter "xen-pciback.hide" unknown!
+[2022-07-11 10:07:16] (XEN) parameter "rd.qubes.hide_pci" unknown!
+[2022-07-11 10:07:16] (XEN) parameter "no-real-mode" unknown!
+[2022-07-11 10:07:16]  Xen 4.14.5
+[2022-07-11 10:07:16] (XEN) Xen version 4.14.5 (mockbuild@[unknown]) (gcc (GCC) 10.3.1 20210422 (Red Hat 10.3.1-1)) debug=n  Tue Jul  5 00:00:00 UTC 2022
+[2022-07-11 10:07:16] (XEN) Latest ChangeSet: 
+[2022-07-11 10:07:16] (XEN) Bootloader: GRUB 2.04
+[2022-07-11 10:07:16] (XEN) Command line: placeholder console=none dom0_mem=min:1024M dom0_mem=max:4096M ucode=scan smt=off gnttab_max_frames=2048 gnttab_max_maptrack_frames=4096 xen-pciback.passthrough=1 xen-pciback.hide=(00:14.3) rd.qubes.hide_pci=00:14.3 no-real-mode edd=off
+[2022-07-11 10:07:16] (XEN) Xen image load base address: 0x87200000
+[2022-07-11 10:07:16] (XEN) Video information:
+[2022-07-11 10:07:16] (XEN)  VGA is graphics mode 2160x1350, 32 bpp
+[2022-07-11 10:07:16] (XEN) Disc information:
+[2022-07-11 10:07:16] (XEN)  Found 0 MBR signatures
+[2022-07-11 10:07:16] (XEN)  Found 1 EDD information structures
+[2022-07-11 10:07:16] (XEN) Enabling Supervisor Shadow Stacks
+[2022-07-11 10:07:16] (XEN) Enabling Indirect Branch Tracking
+[2022-07-11 10:07:16] (XEN)   - IBT disabled in UEFI Runtime Services
+[2022-07-11 10:07:16] (XEN) EFI RAM map:
+[2022-07-11 10:07:16] (XEN)  [0000000000000000, 000000000009efff] (usable)
+[2022-07-11 10:07:16] (XEN)  [000000000009f000, 00000000000fffff] (reserved)
+[2022-07-11 10:07:16] (XEN)  [0000000000100000, 000000008e36efff] (usable)
+[2022-07-11 10:07:16] (XEN)  [000000008e36f000, 000000009332efff] (reserved)
+[2022-07-11 10:07:16] (XEN)  [000000009332f000, 0000000093f2efff] (ACPI NVS)
+[2022-07-11 10:07:16] (XEN)  [0000000093f2f000, 0000000093ffefff] (ACPI data)
+[2022-07-11 10:07:16] (XEN)  [0000000093fff000, 0000000093ffffff] (usable)
+[2022-07-11 10:07:16] (XEN)  [0000000094000000, 0000000097ffffff] (reserved)
+[2022-07-11 10:07:16] (XEN)  [0000000098200000, 00000000983fffff] (reserved)
+[2022-07-11 10:07:16] (XEN)  [0000000098c00000, 00000000a07fffff] (reserved)
+[2022-07-11 10:07:16] (XEN)  [00000000c0000000, 00000000cfffffff] (reserved)
+[2022-07-11 10:07:16] (XEN)  [00000000fed20000, 00000000fed7ffff] (reserved)
+[2022-07-11 10:07:16] (XEN)  [0000000100000000, 000000085f7fffff] (usable)
+[2022-07-11 10:07:16] (XEN) ACPI: RSDP 93FFE014, 0024 (r2 LENOVO)
+[2022-07-11 10:07:16] (XEN) ACPI: XSDT 93FFC188, 0144 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 10:07:16] (XEN) ACPI: FACP 90091000, 0114 (r6 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 10:07:16] (XEN) ACPI: DSDT 9003F000, 4DDA5 (r2 LENOVO ICL             2       1000013)
+[2022-07-11 10:07:16] (XEN) ACPI: FACS 93E54000, 0040
+[2022-07-11 10:07:16] (XEN) ACPI: SSDT 9014A000, 038C (r2 LENOVO Pmax_Dev        1 INTL 20200717)
+[2022-07-11 10:07:16] (XEN) ACPI: SSDT 90132000, 5D31 (r2 LENOVO  CpuSsdt     3000 INTL 20200717)
+[2022-07-11 10:07:16] (XEN) ACPI: SSDT 90131000, 059B (r2 LENOVO    CtdpB     1000 INTL 20200717)
+[2022-07-11 10:07:16] (XEN) ACPI: SSDT 900C2000, 3832 (r2 LENOVO DptfTabl     1000 INTL 20200717)
+[2022-07-11 10:07:16] (XEN) ACPI: SSDT 90093000, 060E (r2 LENOVO Tpm2Tabl     1000 INTL 20200717)
+[2022-07-11 10:07:16] (XEN) ACPI: TPM2 90092000, 004C (r4 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 10:07:16] (XEN) ACPI: HPET 90090000, 0038 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 10:07:16] (XEN) ACPI: APIC 9008F000, 01DC (r5 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 10:07:16] (XEN) ACPI: MCFG 9008E000, 003C (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 10:07:16] (XEN) ACPI: ECDT 9008D000, 0053 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 10:07:16] (XEN) ACPI: SSDT 9003C000, 2ADE (r2 LENOVO AdlP_Rvp     1000 INTL 20200717)
+[2022-07-11 10:07:16] (XEN) ACPI: SSDT 9003B000, 0189 (r2 LENOVO PID0Ssdt       10 INTL 20200717)
+[2022-07-11 10:07:16] (XEN) ACPI: SSDT 90039000, 127B (r2 LENOVO ProjSsdt       10 INTL 20200717)
+[2022-07-11 10:07:16] (XEN) ACPI: SSDT 90036000, 2B22 (r2 LENOVO  SaSsdt      3000 INTL 20200717)
+[2022-07-11 10:07:16] (XEN) ACPI: SSDT 90032000, 35CE (r2 LENOVO IgfxSsdt     3000 INTL 20200717)
+[2022-07-11 10:07:16] (XEN) ACPI: SSDT 90029000, 8822 (r2 LENOVO TcssSsdt     1000 INTL 20200717)
+[2022-07-11 10:07:16] (XEN) ACPI: SSDT 90028000, 0150 (r2 LENOVO  IpuSsdt     1000 INTL 20200717)
+[2022-07-11 10:07:16] (XEN) ACPI: LPIT 90027000, 00CC (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 10:07:16] (XEN) ACPI: WSMT 90026000, 0028 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 10:07:16] (XEN) ACPI: SSDT 90023000, 2357 (r2 LENOVO TbtTypeC        0 INTL 20200717)
+[2022-07-11 10:07:16] (XEN) ACPI: DBGP 90022000, 0034 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 10:07:16] (XEN) ACPI: DBG2 90021000, 0054 (r0 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 10:07:16] (XEN) ACPI: NHLT 90020000, 002D (r0 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 10:07:16] (XEN) ACPI: MSDM 9001F000, 0055 (r3 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 10:07:16] (XEN) ACPI: SSDT 90009000, 0E54 (r2 LENOVO UsbCTabl     1000 INTL 20200717)
+[2022-07-11 10:07:16] (XEN) ACPI: BATB 90007000, 004A (r2 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 10:07:16] (XEN) ACPI: DMAR 8E805000, 00A0 (r2 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 10:07:16] (XEN) ACPI: SSDT 8E803000, 129A (r2 LENOVO  SocGpe      3000 INTL 20200717)
+[2022-07-11 10:07:16] (XEN) ACPI: SSDT 8E7FF000, 39DA (r2 LENOVO  SocCmn      3000 INTL 20200717)
+[2022-07-11 10:07:16] (XEN) ACPI: SSDT 8E7FE000, 0144 (r2 LENOVO ADebTabl     1000 INTL 20200717)
+[2022-07-11 10:07:16] (XEN) ACPI: ASF! 8E7FD000, 00A0 (r32 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 10:07:16] (XEN) ACPI: BGRT 9000A000, 0038 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 10:07:16] (XEN) ACPI: PHAT 8E7D6000, 0598 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 10:07:16] (XEN) ACPI: UEFI 93E4B000, 0076 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 10:07:16] (XEN) ACPI: FPDT 8E7D5000, 0034 (r1 LENOVO TP-N3A       1120 PTEC     1120)
+[2022-07-11 10:07:16] (XEN) System RAM: 32475MB (33254460kB)
+[2022-07-11 10:07:16] (XEN) Domain heap initialised
+[2022-07-11 10:07:16] (XEN) ACPI: 32/64X FACS address mismatch in FADT - 93e54000/0000000000000000, using 32
+[2022-07-11 10:07:16] (XEN) IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-119
+[2022-07-11 10:07:16] (XEN) Enabling APIC mode:  Phys.  Using 1 I/O APICs
+[2022-07-11 10:07:16] (XEN) Switched to APIC driver x2apic_cluster
+[2022-07-11 10:07:16] (XEN) CPU0: TSC: 38400000 Hz * 104 / 2 = 1996800000 Hz
+[2022-07-11 10:07:16] (XEN) CPU0: bus: 100 MHz base: 2000 MHz max: 4800 MHz
+[2022-07-11 10:07:16] (XEN) CPU0: 400 ... 2000 MHz
+[2022-07-11 10:07:16] (XEN) xstate: size: 0xa88 and states: 0x207
+[2022-07-11 10:07:16] (XEN) Unrecognised CPU model 0x9a - assuming vulnerable to LazyFPU
+[2022-07-11 10:07:16] (XEN) Speculative mitigation facilities:
+[2022-07-11 10:07:16] (XEN)   Hardware hints: RDCL_NO IBRS_ALL SKIP_L1DFL MDS_NO TAA_NO SBDR_SSDP_NO FBSDP_NO PSDP_NO
+[2022-07-11 10:07:16] (XEN)   Hardware features: IBPB IBRS STIBP SSBD PSFD L1D_FLUSH MD_CLEAR
+[2022-07-11 10:07:16] (XEN)   Compiled-in support: INDIRECT_THUNK
+[2022-07-11 10:07:16] (XEN)   Xen settings: BTI-Thunk JMP, SPEC_CTRL: IBRS+ STIBP+ SSBD-, Other: IBPB BRANCH_HARDEN
+[2022-07-11 10:07:16] (XEN)   Support for HVM VMs: MSR_SPEC_CTRL RSB EAGER_FPU MD_CLEAR
+[2022-07-11 10:07:16] (XEN)   Support for PV VMs: MSR_SPEC_CTRL EAGER_FPU MD_CLEAR
+[2022-07-11 10:07:16] (XEN)   XPTI (64-bit PV only): Dom0 disabled, DomU disabled (with PCID)
+[2022-07-11 10:07:16] (XEN)   PV L1TF shadowing: Dom0 disabled, DomU disabled
+[2022-07-11 10:07:16] (XEN) Using scheduler: SMP Credit Scheduler rev2 (credit2)
+[2022-07-11 10:07:16] (XEN) Initializing Credit2 scheduler
+[2022-07-11 10:07:16] (XEN) Platform timer is 19.200MHz HPET
+[2022-07-11 10:07:16] (XEN) Detected 1996.820 MHz processor.
+[2022-07-11 10:07:16] (XEN) Unknown cachability for MFNs 0xa0-0xff
+[2022-07-11 10:07:16] (XEN) Unknown cachability for MFNs 0x98c00-0x99fff
+[2022-07-11 10:07:16] (XEN) Unknown cachability for MFNs 0x9c000-0xa07ff
+[2022-07-11 10:07:16] (XEN) Unknown cachability for MFNs 0xfed20-0xfed7f
+[2022-07-11 10:07:16] (XEN) Intel VT-d iommu 1 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-11 10:07:16] (XEN) Intel VT-d iommu 0 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-11 10:07:16] (XEN) Intel VT-d iommu 2 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-11 10:07:16] (XEN) Intel VT-d Snoop Control not enabled.
+[2022-07-11 10:07:16] (XEN) Intel VT-d Dom0 DMA Passthrough not enabled.
+[2022-07-11 10:07:16] (XEN) Intel VT-d Queued Invalidation enabled.
+[2022-07-11 10:07:16] (XEN) Intel VT-d Interrupt Remapping enabled.
+[2022-07-11 10:07:16] (XEN) Intel VT-d Posted Interrupt not enabled.
+[2022-07-11 10:07:16] (XEN) Intel VT-d Shared EPT tables enabled.
+[2022-07-11 10:07:16] (XEN) I/O virtualisation enabled
+[2022-07-11 10:07:16] (XEN)  - Dom0 mode: Relaxed
+[2022-07-11 10:07:16] (XEN) Interrupt remapping enabled
+[2022-07-11 10:07:16] (XEN) Enabled directed EOI with ioapic_ack_old on!
+[2022-07-11 10:07:16] (XEN) ENABLING IO-APIC IRQs
+[2022-07-11 10:07:16] (XEN)  -> Using old ACK method
+[2022-07-11 10:07:16] (XEN) Allocated console ring of 64 KiB.
+[2022-07-11 10:07:16] (XEN) VMX: Supported advanced features:
+[2022-07-11 10:07:16] (XEN)  - APIC MMIO access virtualisation
+[2022-07-11 10:07:16] (XEN)  - APIC TPR shadow
+[2022-07-11 10:07:16] (XEN)  - Extended Page Tables (EPT)
+[2022-07-11 10:07:16] (XEN)  - Virtual-Processor Identifiers (VPID)
+[2022-07-11 10:07:16] (XEN)  - Virtual NMI
+[2022-07-11 10:07:16] (XEN)  - MSR direct-access bitmap
+[2022-07-11 10:07:16] (XEN)  - Unrestricted Guest
+[2022-07-11 10:07:16] (XEN)  - APIC Register Virtualization
+[2022-07-11 10:07:16] (XEN)  - Virtual Interrupt Delivery
+[2022-07-11 10:07:16] (XEN)  - Posted Interrupt Processing
+[2022-07-11 10:07:16] (XEN)  - VMCS shadowing
+[2022-07-11 10:07:16] (XEN)  - VM Functions
+[2022-07-11 10:07:16] (XEN)  - Virtualisation Exceptions
+[2022-07-11 10:07:16] (XEN)  - TSC Scaling
+[2022-07-11 10:07:16] (XEN) HVM: ASIDs enabled.
+[2022-07-11 10:07:16] (XEN) HVM: VMX enabled
+[2022-07-11 10:07:16] (XEN) HVM: Hardware Assisted Paging (HAP) detected
+[2022-07-11 10:07:16] (XEN) HVM: HAP page sizes: 4kB, 2MB, 1GB
+[2022-07-11 10:07:16] (XEN) Brought up 14 CPUs
+[2022-07-11 10:07:16] (XEN) Scheduling granularity: cpu, 1 CPU per sched-resource
+[2022-07-11 10:07:16] (XEN) Dom0 has maximum 1160 PIRQs
+[2022-07-11 10:07:16] (XEN)  Xen  kernel: 64-bit, lsb, compat32
+[2022-07-11 10:07:16] (XEN)  Dom0 kernel: 64-bit, PAE, lsb, paddr 0x1000000 -> 0x4000000
+[2022-07-11 10:07:16] (XEN) PHYSICAL MEMORY ARRANGEMENT:
+[2022-07-11 10:07:16] (XEN)  Dom0 alloc.:   0000000838000000->0000000840000000 (1007383 pages to be allocated)
+[2022-07-11 10:07:16] (XEN)  Init. ramdisk: 000000085d717000->000000085f7ffa71
+[2022-07-11 10:07:16] (XEN) VIRTUAL MEMORY ARRANGEMENT:
+[2022-07-11 10:07:16] (XEN)  Loaded kernel: ffffffff81000000->ffffffff84000000
+[2022-07-11 10:07:16] (XEN)  Init. ramdisk: 0000000000000000->0000000000000000
+[2022-07-11 10:07:16] (XEN)  Phys-Mach map: 0000008000000000->0000008000800000
+[2022-07-11 10:07:16] (XEN)  Start info:    ffffffff84000000->ffffffff840004b8
+[2022-07-11 10:07:16] (XEN)  Xenstore ring: 0000000000000000->0000000000000000
+[2022-07-11 10:07:16] (XEN)  Console ring:  0000000000000000->0000000000000000
+[2022-07-11 10:07:16] (XEN)  Page tables:   ffffffff84001000->ffffffff84026000
+[2022-07-11 10:07:16] (XEN)  Boot stack:    ffffffff84026000->ffffffff84027000
+[2022-07-11 10:07:16] (XEN)  TOTAL:         ffffffff80000000->ffffffff84400000
+[2022-07-11 10:07:16] (XEN)  ENTRY ADDRESS: ffffffff831781c0
+[2022-07-11 10:07:16] (XEN) Dom0 has maximum 14 VCPUs
+[2022-07-11 10:07:16] (XEN) Initial low memory virq threshold set at 0x4000 pages.
+[2022-07-11 10:07:16] (XEN) Scrubbing Free RAM in background
+[2022-07-11 10:07:16] (XEN) Std. Loglevel: Errors and warnings
+[2022-07-11 10:07:16] (XEN) Guest Loglevel: Nothing (Rate-limited: Errors and warnings)
+[2022-07-11 10:07:16] (XEN) *** Serial input to DOM0 (type 'CTRL-a' three times to switch input)
+[2022-07-11 10:07:16] (XEN) Freed 580kB init memory
+[2022-07-11 15:13:53] Logfile Opened
+[2022-07-11 15:13:53] (XEN) Built-in command line: ept=exec-sp spec-ctrl=unpriv-mmio
+[2022-07-11 15:13:53] (XEN) parameter "xen-pciback.passthrough" unknown!
+[2022-07-11 15:13:53] (XEN) parameter "xen-pciback.hide" unknown!
+[2022-07-11 15:13:53] (XEN) parameter "rd.qubes.hide_pci" unknown!
+[2022-07-11 15:13:53] (XEN) parameter "no-real-mode" unknown!
+[2022-07-11 15:13:53]  Xen 4.14.5
+[2022-07-11 15:13:53] (XEN) Xen version 4.14.5 (mockbuild@[unknown]) (gcc (GCC) 10.3.1 20210422 (Red Hat 10.3.1-1)) debug=n  Tue Jul  5 00:00:00 UTC 2022
+[2022-07-11 15:13:53] (XEN) Latest ChangeSet: 
+[2022-07-11 15:13:53] (XEN) Bootloader: GRUB 2.04
+[2022-07-11 15:13:53] (XEN) Command line: placeholder console=none dom0_mem=min:1024M dom0_mem=max:4096M ucode=scan smt=off gnttab_max_frames=2048 gnttab_max_maptrack_frames=4096 xen-pciback.passthrough=1 xen-pciback.hide=(00:14.3) rd.qubes.hide_pci=00:14.3 no-real-mode edd=off
+[2022-07-11 15:13:53] (XEN) Xen image load base address: 0x87200000
+[2022-07-11 15:13:53] (XEN) Video information:
+[2022-07-11 15:13:53] (XEN)  VGA is graphics mode 2160x1350, 32 bpp
+[2022-07-11 15:13:53] (XEN) Disc information:
+[2022-07-11 15:13:53] (XEN)  Found 0 MBR signatures
+[2022-07-11 15:13:53] (XEN)  Found 1 EDD information structures
+[2022-07-11 15:13:53] (XEN) Enabling Supervisor Shadow Stacks
+[2022-07-11 15:13:53] (XEN) Enabling Indirect Branch Tracking
+[2022-07-11 15:13:53] (XEN)   - IBT disabled in UEFI Runtime Services
+[2022-07-11 15:13:53] (XEN) EFI RAM map:
+[2022-07-11 15:13:53] (XEN)  [0000000000000000, 000000000009efff] (usable)
+[2022-07-11 15:13:53] (XEN)  [000000000009f000, 00000000000fffff] (reserved)
+[2022-07-11 15:13:53] (XEN)  [0000000000100000, 000000008e36efff] (usable)
+[2022-07-11 15:13:53] (XEN)  [000000008e36f000, 000000009332efff] (reserved)
+[2022-07-11 15:13:53] (XEN)  [000000009332f000, 0000000093f2efff] (ACPI NVS)
+[2022-07-11 15:13:53] (XEN)  [0000000093f2f000, 0000000093ffefff] (ACPI data)
+[2022-07-11 15:13:53] (XEN)  [0000000093fff000, 0000000093ffffff] (usable)
+[2022-07-11 15:13:53] (XEN)  [0000000094000000, 0000000097ffffff] (reserved)
+[2022-07-11 15:13:53] (XEN)  [0000000098200000, 00000000983fffff] (reserved)
+[2022-07-11 15:13:53] (XEN)  [0000000098c00000, 00000000a07fffff] (reserved)
+[2022-07-11 15:13:53] (XEN)  [00000000c0000000, 00000000cfffffff] (reserved)
+[2022-07-11 15:13:53] (XEN)  [00000000fed20000, 00000000fed7ffff] (reserved)
+[2022-07-11 15:13:53] (XEN)  [0000000100000000, 000000085f7fffff] (usable)
+[2022-07-11 15:13:53] (XEN) ACPI: RSDP 93FFE014, 0024 (r2 LENOVO)
+[2022-07-11 15:13:53] (XEN) ACPI: XSDT 93FFC188, 0144 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 15:13:53] (XEN) ACPI: FACP 90091000, 0114 (r6 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 15:13:53] (XEN) ACPI: DSDT 9003F000, 4DDA5 (r2 LENOVO ICL             2       1000013)
+[2022-07-11 15:13:53] (XEN) ACPI: FACS 93E54000, 0040
+[2022-07-11 15:13:53] (XEN) ACPI: SSDT 9014A000, 038C (r2 LENOVO Pmax_Dev        1 INTL 20200717)
+[2022-07-11 15:13:53] (XEN) ACPI: SSDT 90132000, 5D31 (r2 LENOVO  CpuSsdt     3000 INTL 20200717)
+[2022-07-11 15:13:53] (XEN) ACPI: SSDT 90131000, 059B (r2 LENOVO    CtdpB     1000 INTL 20200717)
+[2022-07-11 15:13:53] (XEN) ACPI: SSDT 900C2000, 3832 (r2 LENOVO DptfTabl     1000 INTL 20200717)
+[2022-07-11 15:13:53] (XEN) ACPI: SSDT 90093000, 060E (r2 LENOVO Tpm2Tabl     1000 INTL 20200717)
+[2022-07-11 15:13:53] (XEN) ACPI: TPM2 90092000, 004C (r4 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 15:13:53] (XEN) ACPI: HPET 90090000, 0038 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 15:13:53] (XEN) ACPI: APIC 9008F000, 01DC (r5 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 15:13:53] (XEN) ACPI: MCFG 9008E000, 003C (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 15:13:53] (XEN) ACPI: ECDT 9008D000, 0053 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 15:13:53] (XEN) ACPI: SSDT 9003C000, 2ADE (r2 LENOVO AdlP_Rvp     1000 INTL 20200717)
+[2022-07-11 15:13:53] (XEN) ACPI: SSDT 9003B000, 0189 (r2 LENOVO PID0Ssdt       10 INTL 20200717)
+[2022-07-11 15:13:53] (XEN) ACPI: SSDT 90039000, 127B (r2 LENOVO ProjSsdt       10 INTL 20200717)
+[2022-07-11 15:13:53] (XEN) ACPI: SSDT 90036000, 2B22 (r2 LENOVO  SaSsdt      3000 INTL 20200717)
+[2022-07-11 15:13:53] (XEN) ACPI: SSDT 90032000, 35CE (r2 LENOVO IgfxSsdt     3000 INTL 20200717)
+[2022-07-11 15:13:53] (XEN) ACPI: SSDT 90029000, 8822 (r2 LENOVO TcssSsdt     1000 INTL 20200717)
+[2022-07-11 15:13:53] (XEN) ACPI: SSDT 90028000, 0150 (r2 LENOVO  IpuSsdt     1000 INTL 20200717)
+[2022-07-11 15:13:53] (XEN) ACPI: LPIT 90027000, 00CC (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 15:13:53] (XEN) ACPI: WSMT 90026000, 0028 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 15:13:53] (XEN) ACPI: SSDT 90023000, 2357 (r2 LENOVO TbtTypeC        0 INTL 20200717)
+[2022-07-11 15:13:53] (XEN) ACPI: DBGP 90022000, 0034 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 15:13:53] (XEN) ACPI: DBG2 90021000, 0054 (r0 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 15:13:53] (XEN) ACPI: NHLT 90020000, 002D (r0 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 15:13:53] (XEN) ACPI: MSDM 9001F000, 0055 (r3 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 15:13:53] (XEN) ACPI: SSDT 90009000, 0E54 (r2 LENOVO UsbCTabl     1000 INTL 20200717)
+[2022-07-11 15:13:53] (XEN) ACPI: BATB 90007000, 004A (r2 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 15:13:53] (XEN) ACPI: DMAR 8E805000, 00A0 (r2 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 15:13:53] (XEN) ACPI: SSDT 8E803000, 129A (r2 LENOVO  SocGpe      3000 INTL 20200717)
+[2022-07-11 15:13:53] (XEN) ACPI: SSDT 8E7FF000, 39DA (r2 LENOVO  SocCmn      3000 INTL 20200717)
+[2022-07-11 15:13:53] (XEN) ACPI: SSDT 8E7FE000, 0144 (r2 LENOVO ADebTabl     1000 INTL 20200717)
+[2022-07-11 15:13:53] (XEN) ACPI: ASF! 8E7FD000, 00A0 (r32 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 15:13:53] (XEN) ACPI: BGRT 9000A000, 0038 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 15:13:53] (XEN) ACPI: PHAT 8E7D6000, 0598 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 15:13:53] (XEN) ACPI: UEFI 93E4B000, 0076 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 15:13:53] (XEN) ACPI: FPDT 8E7D5000, 0034 (r1 LENOVO TP-N3A       1120 PTEC     1120)
+[2022-07-11 15:13:53] (XEN) System RAM: 32475MB (33254460kB)
+[2022-07-11 15:13:53] (XEN) Domain heap initialised
+[2022-07-11 15:13:53] (XEN) ACPI: 32/64X FACS address mismatch in FADT - 93e54000/0000000000000000, using 32
+[2022-07-11 15:13:53] (XEN) IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-119
+[2022-07-11 15:13:53] (XEN) Enabling APIC mode:  Phys.  Using 1 I/O APICs
+[2022-07-11 15:13:53] (XEN) Switched to APIC driver x2apic_cluster
+[2022-07-11 15:13:53] (XEN) CPU0: TSC: 38400000 Hz * 104 / 2 = 1996800000 Hz
+[2022-07-11 15:13:53] (XEN) CPU0: bus: 100 MHz base: 2000 MHz max: 4800 MHz
+[2022-07-11 15:13:53] (XEN) CPU0: 400 ... 2000 MHz
+[2022-07-11 15:13:53] (XEN) xstate: size: 0xa88 and states: 0x207
+[2022-07-11 15:13:53] (XEN) Unrecognised CPU model 0x9a - assuming vulnerable to LazyFPU
+[2022-07-11 15:13:53] (XEN) Speculative mitigation facilities:
+[2022-07-11 15:13:53] (XEN)   Hardware hints: RDCL_NO IBRS_ALL SKIP_L1DFL MDS_NO TAA_NO SBDR_SSDP_NO FBSDP_NO PSDP_NO
+[2022-07-11 15:13:53] (XEN)   Hardware features: IBPB IBRS STIBP SSBD PSFD L1D_FLUSH MD_CLEAR
+[2022-07-11 15:13:53] (XEN)   Compiled-in support: INDIRECT_THUNK
+[2022-07-11 15:13:53] (XEN)   Xen settings: BTI-Thunk JMP, SPEC_CTRL: IBRS+ STIBP+ SSBD-, Other: IBPB BRANCH_HARDEN
+[2022-07-11 15:13:53] (XEN)   Support for HVM VMs: MSR_SPEC_CTRL RSB EAGER_FPU MD_CLEAR
+[2022-07-11 15:13:53] (XEN)   Support for PV VMs: MSR_SPEC_CTRL EAGER_FPU MD_CLEAR
+[2022-07-11 15:13:53] (XEN)   XPTI (64-bit PV only): Dom0 disabled, DomU disabled (with PCID)
+[2022-07-11 15:13:53] (XEN)   PV L1TF shadowing: Dom0 disabled, DomU disabled
+[2022-07-11 15:13:53] (XEN) Using scheduler: SMP Credit Scheduler rev2 (credit2)
+[2022-07-11 15:13:53] (XEN) Initializing Credit2 scheduler
+[2022-07-11 15:13:53] (XEN) Platform timer is 19.200MHz HPET
+[2022-07-11 15:13:53] (XEN) Detected 1996.820 MHz processor.
+[2022-07-11 15:13:53] (XEN) Unknown cachability for MFNs 0xa0-0xff
+[2022-07-11 15:13:53] (XEN) Unknown cachability for MFNs 0x98c00-0x99fff
+[2022-07-11 15:13:53] (XEN) Unknown cachability for MFNs 0x9c000-0xa07ff
+[2022-07-11 15:13:53] (XEN) Unknown cachability for MFNs 0xfed20-0xfed7f
+[2022-07-11 15:13:53] (XEN) Intel VT-d iommu 1 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-11 15:13:53] (XEN) Intel VT-d iommu 0 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-11 15:13:53] (XEN) Intel VT-d iommu 2 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-11 15:13:53] (XEN) Intel VT-d Snoop Control not enabled.
+[2022-07-11 15:13:53] (XEN) Intel VT-d Dom0 DMA Passthrough not enabled.
+[2022-07-11 15:13:53] (XEN) Intel VT-d Queued Invalidation enabled.
+[2022-07-11 15:13:53] (XEN) Intel VT-d Interrupt Remapping enabled.
+[2022-07-11 15:13:53] (XEN) Intel VT-d Posted Interrupt not enabled.
+[2022-07-11 15:13:53] (XEN) Intel VT-d Shared EPT tables enabled.
+[2022-07-11 15:13:53] (XEN) I/O virtualisation enabled
+[2022-07-11 15:13:53] (XEN)  - Dom0 mode: Relaxed
+[2022-07-11 15:13:53] (XEN) Interrupt remapping enabled
+[2022-07-11 15:13:53] (XEN) Enabled directed EOI with ioapic_ack_old on!
+[2022-07-11 15:13:53] (XEN) ENABLING IO-APIC IRQs
+[2022-07-11 15:13:53] (XEN)  -> Using old ACK method
+[2022-07-11 15:13:53] (XEN) Allocated console ring of 64 KiB.
+[2022-07-11 15:13:53] (XEN) VMX: Supported advanced features:
+[2022-07-11 15:13:53] (XEN)  - APIC MMIO access virtualisation
+[2022-07-11 15:13:53] (XEN)  - APIC TPR shadow
+[2022-07-11 15:13:53] (XEN)  - Extended Page Tables (EPT)
+[2022-07-11 15:13:53] (XEN)  - Virtual-Processor Identifiers (VPID)
+[2022-07-11 15:13:53] (XEN)  - Virtual NMI
+[2022-07-11 15:13:53] (XEN)  - MSR direct-access bitmap
+[2022-07-11 15:13:53] (XEN)  - Unrestricted Guest
+[2022-07-11 15:13:53] (XEN)  - APIC Register Virtualization
+[2022-07-11 15:13:53] (XEN)  - Virtual Interrupt Delivery
+[2022-07-11 15:13:53] (XEN)  - Posted Interrupt Processing
+[2022-07-11 15:13:53] (XEN)  - VMCS shadowing
+[2022-07-11 15:13:53] (XEN)  - VM Functions
+[2022-07-11 15:13:53] (XEN)  - Virtualisation Exceptions
+[2022-07-11 15:13:53] (XEN)  - TSC Scaling
+[2022-07-11 15:13:53] (XEN) HVM: ASIDs enabled.
+[2022-07-11 15:13:53] (XEN) HVM: VMX enabled
+[2022-07-11 15:13:53] (XEN) HVM: Hardware Assisted Paging (HAP) detected
+[2022-07-11 15:13:53] (XEN) HVM: HAP page sizes: 4kB, 2MB, 1GB
+[2022-07-11 15:13:53] (XEN) Brought up 14 CPUs
+[2022-07-11 15:13:53] (XEN) Scheduling granularity: cpu, 1 CPU per sched-resource
+[2022-07-11 15:13:53] (XEN) Dom0 has maximum 1160 PIRQs
+[2022-07-11 15:13:53] (XEN)  Xen  kernel: 64-bit, lsb, compat32
+[2022-07-11 15:13:53] (XEN)  Dom0 kernel: 64-bit, PAE, lsb, paddr 0x1000000 -> 0x4000000
+[2022-07-11 15:13:53] (XEN) PHYSICAL MEMORY ARRANGEMENT:
+[2022-07-11 15:13:53] (XEN)  Dom0 alloc.:   0000000838000000->0000000840000000 (1007383 pages to be allocated)
+[2022-07-11 15:13:53] (XEN)  Init. ramdisk: 000000085d717000->000000085f7ffa71
+[2022-07-11 15:13:53] (XEN) VIRTUAL MEMORY ARRANGEMENT:
+[2022-07-11 15:13:53] (XEN)  Loaded kernel: ffffffff81000000->ffffffff84000000
+[2022-07-11 15:13:53] (XEN)  Init. ramdisk: 0000000000000000->0000000000000000
+[2022-07-11 15:13:53] (XEN)  Phys-Mach map: 0000008000000000->0000008000800000
+[2022-07-11 15:13:53] (XEN)  Start info:    ffffffff84000000->ffffffff840004b8
+[2022-07-11 15:13:53] (XEN)  Xenstore ring: 0000000000000000->0000000000000000
+[2022-07-11 15:13:53] (XEN)  Console ring:  0000000000000000->0000000000000000
+[2022-07-11 15:13:53] (XEN)  Page tables:   ffffffff84001000->ffffffff84026000
+[2022-07-11 15:13:53] (XEN)  Boot stack:    ffffffff84026000->ffffffff84027000
+[2022-07-11 15:13:53] (XEN)  TOTAL:         ffffffff80000000->ffffffff84400000
+[2022-07-11 15:13:53] (XEN)  ENTRY ADDRESS: ffffffff831781c0
+[2022-07-11 15:13:53] (XEN) Dom0 has maximum 14 VCPUs
+[2022-07-11 15:13:53] (XEN) Initial low memory virq threshold set at 0x4000 pages.
+[2022-07-11 15:13:53] (XEN) Scrubbing Free RAM in background
+[2022-07-11 15:13:53] (XEN) Std. Loglevel: Errors and warnings
+[2022-07-11 15:13:53] (XEN) Guest Loglevel: Nothing (Rate-limited: Errors and warnings)
+[2022-07-11 15:13:53] (XEN) *** Serial input to DOM0 (type 'CTRL-a' three times to switch input)
+[2022-07-11 15:13:53] (XEN) Freed 580kB init memory
+[2022-07-11 15:14:09] (XEN) [VT-D]INTR-REMAP: Request device [0000:00:0d.0] fault index 89
+[2022-07-11 15:14:09] (XEN) [VT-D]INTR-REMAP: reason 26 - Blocked an interrupt request due to source-id verification failure
+[2022-07-11 15:14:23] (XEN) CPU10: Temperature above threshold
+[2022-07-11 15:14:23] (XEN) CPU10: Running in modulated clock mode
+[2022-07-11 15:14:23] (XEN) CPU6: Temperature above threshold
+[2022-07-11 15:14:23] (XEN) CPU6: Running in modulated clock mode
+[2022-07-11 15:15:31] (XEN) [VT-D]INTR-REMAP: Request device [0000:00:0d.0] fault index 89
+[2022-07-11 15:15:31] (XEN) [VT-D]INTR-REMAP: reason 26 - Blocked an interrupt request due to source-id verification failure
+[2022-07-11 15:25:06] (XEN) [VT-D]INTR-REMAP: Request device [0000:00:0d.0] fault index 89
+[2022-07-11 15:25:06] (XEN) [VT-D]INTR-REMAP: reason 26 - Blocked an interrupt request due to source-id verification failure
+[2022-07-11 15:26:28] (XEN) [VT-D]INTR-REMAP: Request device [0000:00:0d.0] fault index 89
+[2022-07-11 15:26:28] (XEN) [VT-D]INTR-REMAP: reason 26 - Blocked an interrupt request due to source-id verification failure
+[2022-07-11 15:46:22] (XEN) [VT-D]INTR-REMAP: Request device [0000:00:0d.0] fault index 89
+[2022-07-11 15:46:22] (XEN) [VT-D]INTR-REMAP: reason 26 - Blocked an interrupt request due to source-id verification failure
+[2022-07-11 15:48:22] (XEN) [VT-D]INTR-REMAP: Request device [0000:00:0d.0] fault index 89
+[2022-07-11 15:48:22] (XEN) [VT-D]INTR-REMAP: reason 26 - Blocked an interrupt request due to source-id verification failure
+[2022-07-11 15:49:44] (XEN) [VT-D]INTR-REMAP: Request device [0000:00:0d.0] fault index 89
+[2022-07-11 15:49:44] (XEN) [VT-D]INTR-REMAP: reason 26 - Blocked an interrupt request due to source-id verification failure
+[2022-07-11 16:03:15] (XEN) [VT-D]INTR-REMAP: Request device [0000:00:0d.0] fault index 89
+[2022-07-11 16:03:15] (XEN) [VT-D]INTR-REMAP: reason 26 - Blocked an interrupt request due to source-id verification failure
+[2022-07-11 16:04:37] (XEN) [VT-D]INTR-REMAP: Request device [0000:00:0d.0] fault index 89
+[2022-07-11 16:04:37] (XEN) [VT-D]INTR-REMAP: reason 26 - Blocked an interrupt request due to source-id verification failure
+[2022-07-11 16:17:47] (XEN) [VT-D]INTR-REMAP: Request device [0000:00:0d.0] fault index 89
+[2022-07-11 16:17:47] (XEN) [VT-D]INTR-REMAP: reason 26 - Blocked an interrupt request due to source-id verification failure
+[2022-07-11 16:19:09] (XEN) [VT-D]INTR-REMAP: Request device [0000:00:0d.0] fault index 89
+[2022-07-11 16:19:09] (XEN) [VT-D]INTR-REMAP: reason 26 - Blocked an interrupt request due to source-id verification failure
+[2022-07-11 16:22:13] Logfile Opened
+[2022-07-11 16:22:13] (XEN) Built-in command line: ept=exec-sp spec-ctrl=unpriv-mmio
+[2022-07-11 16:22:13] (XEN) parameter "no-real-mode" unknown!
+[2022-07-11 16:22:13]  Xen 4.14.5
+[2022-07-11 16:22:13] (XEN) Xen version 4.14.5 (mockbuild@[unknown]) (gcc (GCC) 10.3.1 20210422 (Red Hat 10.3.1-1)) debug=n  Tue Jul  5 00:00:00 UTC 2022
+[2022-07-11 16:22:13] (XEN) Latest ChangeSet: 
+[2022-07-11 16:22:13] (XEN) Bootloader: GRUB 2.04
+[2022-07-11 16:22:13] (XEN) Command line: placeholder console=none dom0_mem=min:1024M dom0_mem=max:4096M ucode=scan smt=off gnttab_max_frames=2048 gnttab_max_maptrack_frames=4096 no-real-mode edd=off
+[2022-07-11 16:22:13] (XEN) Xen image load base address: 0x87200000
+[2022-07-11 16:22:13] (XEN) Video information:
+[2022-07-11 16:22:13] (XEN)  VGA is graphics mode 2160x1350, 32 bpp
+[2022-07-11 16:22:13] (XEN) Disc information:
+[2022-07-11 16:22:13] (XEN)  Found 0 MBR signatures
+[2022-07-11 16:22:13] (XEN)  Found 1 EDD information structures
+[2022-07-11 16:22:13] (XEN) Enabling Supervisor Shadow Stacks
+[2022-07-11 16:22:13] (XEN) Enabling Indirect Branch Tracking
+[2022-07-11 16:22:13] (XEN)   - IBT disabled in UEFI Runtime Services
+[2022-07-11 16:22:13] (XEN) EFI RAM map:
+[2022-07-11 16:22:13] (XEN)  [0000000000000000, 000000000009efff] (usable)
+[2022-07-11 16:22:13] (XEN)  [000000000009f000, 00000000000fffff] (reserved)
+[2022-07-11 16:22:13] (XEN)  [0000000000100000, 000000008e36efff] (usable)
+[2022-07-11 16:22:13] (XEN)  [000000008e36f000, 000000009332efff] (reserved)
+[2022-07-11 16:22:13] (XEN)  [000000009332f000, 0000000093f2efff] (ACPI NVS)
+[2022-07-11 16:22:13] (XEN)  [0000000093f2f000, 0000000093ffefff] (ACPI data)
+[2022-07-11 16:22:13] (XEN)  [0000000093fff000, 0000000093ffffff] (usable)
+[2022-07-11 16:22:13] (XEN)  [0000000094000000, 0000000097ffffff] (reserved)
+[2022-07-11 16:22:13] (XEN)  [0000000098200000, 00000000983fffff] (reserved)
+[2022-07-11 16:22:13] (XEN)  [0000000098c00000, 00000000a07fffff] (reserved)
+[2022-07-11 16:22:13] (XEN)  [00000000c0000000, 00000000cfffffff] (reserved)
+[2022-07-11 16:22:13] (XEN)  [00000000fed20000, 00000000fed7ffff] (reserved)
+[2022-07-11 16:22:13] (XEN)  [0000000100000000, 000000085f7fffff] (usable)
+[2022-07-11 16:22:13] (XEN) ACPI: RSDP 93FFE014, 0024 (r2 LENOVO)
+[2022-07-11 16:22:13] (XEN) ACPI: XSDT 93FFC188, 0144 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 16:22:13] (XEN) ACPI: FACP 90091000, 0114 (r6 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 16:22:13] (XEN) ACPI: DSDT 9003F000, 4DDA5 (r2 LENOVO ICL             2       1000013)
+[2022-07-11 16:22:13] (XEN) ACPI: FACS 93E54000, 0040
+[2022-07-11 16:22:13] (XEN) ACPI: SSDT 9014A000, 038C (r2 LENOVO Pmax_Dev        1 INTL 20200717)
+[2022-07-11 16:22:13] (XEN) ACPI: SSDT 90132000, 5D31 (r2 LENOVO  CpuSsdt     3000 INTL 20200717)
+[2022-07-11 16:22:13] (XEN) ACPI: SSDT 90131000, 059B (r2 LENOVO    CtdpB     1000 INTL 20200717)
+[2022-07-11 16:22:13] (XEN) ACPI: SSDT 900C2000, 3832 (r2 LENOVO DptfTabl     1000 INTL 20200717)
+[2022-07-11 16:22:13] (XEN) ACPI: SSDT 90093000, 060E (r2 LENOVO Tpm2Tabl     1000 INTL 20200717)
+[2022-07-11 16:22:13] (XEN) ACPI: TPM2 90092000, 004C (r4 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 16:22:13] (XEN) ACPI: HPET 90090000, 0038 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 16:22:13] (XEN) ACPI: APIC 9008F000, 01DC (r5 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 16:22:13] (XEN) ACPI: MCFG 9008E000, 003C (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 16:22:13] (XEN) ACPI: ECDT 9008D000, 0053 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 16:22:13] (XEN) ACPI: SSDT 9003C000, 2ADE (r2 LENOVO AdlP_Rvp     1000 INTL 20200717)
+[2022-07-11 16:22:13] (XEN) ACPI: SSDT 9003B000, 0189 (r2 LENOVO PID0Ssdt       10 INTL 20200717)
+[2022-07-11 16:22:13] (XEN) ACPI: SSDT 90039000, 127B (r2 LENOVO ProjSsdt       10 INTL 20200717)
+[2022-07-11 16:22:13] (XEN) ACPI: SSDT 90036000, 2B22 (r2 LENOVO  SaSsdt      3000 INTL 20200717)
+[2022-07-11 16:22:13] (XEN) ACPI: SSDT 90032000, 35CE (r2 LENOVO IgfxSsdt     3000 INTL 20200717)
+[2022-07-11 16:22:13] (XEN) ACPI: SSDT 90029000, 8822 (r2 LENOVO TcssSsdt     1000 INTL 20200717)
+[2022-07-11 16:22:13] (XEN) ACPI: SSDT 90028000, 0150 (r2 LENOVO  IpuSsdt     1000 INTL 20200717)
+[2022-07-11 16:22:13] (XEN) ACPI: LPIT 90027000, 00CC (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 16:22:13] (XEN) ACPI: WSMT 90026000, 0028 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 16:22:13] (XEN) ACPI: SSDT 90023000, 2357 (r2 LENOVO TbtTypeC        0 INTL 20200717)
+[2022-07-11 16:22:13] (XEN) ACPI: DBGP 90022000, 0034 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 16:22:13] (XEN) ACPI: DBG2 90021000, 0054 (r0 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 16:22:13] (XEN) ACPI: NHLT 90020000, 002D (r0 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 16:22:13] (XEN) ACPI: MSDM 9001F000, 0055 (r3 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 16:22:13] (XEN) ACPI: SSDT 90009000, 0E54 (r2 LENOVO UsbCTabl     1000 INTL 20200717)
+[2022-07-11 16:22:13] (XEN) ACPI: BATB 90007000, 004A (r2 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 16:22:13] (XEN) ACPI: DMAR 8E805000, 00A0 (r2 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 16:22:13] (XEN) ACPI: SSDT 8E803000, 129A (r2 LENOVO  SocGpe      3000 INTL 20200717)
+[2022-07-11 16:22:13] (XEN) ACPI: SSDT 8E7FF000, 39DA (r2 LENOVO  SocCmn      3000 INTL 20200717)
+[2022-07-11 16:22:13] (XEN) ACPI: SSDT 8E7FE000, 0144 (r2 LENOVO ADebTabl     1000 INTL 20200717)
+[2022-07-11 16:22:13] (XEN) ACPI: ASF! 8E7FD000, 00A0 (r32 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 16:22:13] (XEN) ACPI: BGRT 9000A000, 0038 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 16:22:13] (XEN) ACPI: PHAT 8E7D6000, 0598 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 16:22:13] (XEN) ACPI: UEFI 93E4B000, 0076 (r1 LENOVO TP-N3A       1120 PTEC        2)
+[2022-07-11 16:22:13] (XEN) ACPI: FPDT 8E7D5000, 0034 (r1 LENOVO TP-N3A       1120 PTEC     1120)
+[2022-07-11 16:22:13] (XEN) System RAM: 32475MB (33254460kB)
+[2022-07-11 16:22:13] (XEN) Domain heap initialised
+[2022-07-11 16:22:13] (XEN) ACPI: 32/64X FACS address mismatch in FADT - 93e54000/0000000000000000, using 32
+[2022-07-11 16:22:13] (XEN) IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-119
+[2022-07-11 16:22:13] (XEN) Enabling APIC mode:  Phys.  Using 1 I/O APICs
+[2022-07-11 16:22:13] (XEN) Switched to APIC driver x2apic_cluster
+[2022-07-11 16:22:13] (XEN) CPU0: TSC: 38400000 Hz * 104 / 2 = 1996800000 Hz
+[2022-07-11 16:22:13] (XEN) CPU0: bus: 100 MHz base: 2000 MHz max: 4800 MHz
+[2022-07-11 16:22:13] (XEN) CPU0: 400 ... 2000 MHz
+[2022-07-11 16:22:13] (XEN) xstate: size: 0xa88 and states: 0x207
+[2022-07-11 16:22:13] (XEN) Unrecognised CPU model 0x9a - assuming vulnerable to LazyFPU
+[2022-07-11 16:22:13] (XEN) Speculative mitigation facilities:
+[2022-07-11 16:22:13] (XEN)   Hardware hints: RDCL_NO IBRS_ALL SKIP_L1DFL MDS_NO TAA_NO SBDR_SSDP_NO FBSDP_NO PSDP_NO
+[2022-07-11 16:22:13] (XEN)   Hardware features: IBPB IBRS STIBP SSBD PSFD L1D_FLUSH MD_CLEAR
+[2022-07-11 16:22:13] (XEN)   Compiled-in support: INDIRECT_THUNK
+[2022-07-11 16:22:13] (XEN)   Xen settings: BTI-Thunk JMP, SPEC_CTRL: IBRS+ STIBP+ SSBD-, Other: IBPB BRANCH_HARDEN
+[2022-07-11 16:22:13] (XEN)   Support for HVM VMs: MSR_SPEC_CTRL RSB EAGER_FPU MD_CLEAR
+[2022-07-11 16:22:13] (XEN)   Support for PV VMs: MSR_SPEC_CTRL EAGER_FPU MD_CLEAR
+[2022-07-11 16:22:13] (XEN)   XPTI (64-bit PV only): Dom0 disabled, DomU disabled (with PCID)
+[2022-07-11 16:22:13] (XEN)   PV L1TF shadowing: Dom0 disabled, DomU disabled
+[2022-07-11 16:22:13] (XEN) Using scheduler: SMP Credit Scheduler rev2 (credit2)
+[2022-07-11 16:22:13] (XEN) Initializing Credit2 scheduler
+[2022-07-11 16:22:13] (XEN) Platform timer is 19.200MHz HPET
+[2022-07-11 16:22:13] (XEN) Detected 1996.818 MHz processor.
+[2022-07-11 16:22:13] (XEN) Unknown cachability for MFNs 0xa0-0xff
+[2022-07-11 16:22:13] (XEN) Unknown cachability for MFNs 0x98c00-0x99fff
+[2022-07-11 16:22:13] (XEN) Unknown cachability for MFNs 0x9c000-0xa07ff
+[2022-07-11 16:22:13] (XEN) Unknown cachability for MFNs 0xfed20-0xfed7f
+[2022-07-11 16:22:13] (XEN) Intel VT-d iommu 1 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-11 16:22:13] (XEN) Intel VT-d iommu 0 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-11 16:22:13] (XEN) Intel VT-d iommu 2 supported page sizes: 4kB, 2MB, 1GB
+[2022-07-11 16:22:13] (XEN) Intel VT-d Snoop Control not enabled.
+[2022-07-11 16:22:13] (XEN) Intel VT-d Dom0 DMA Passthrough not enabled.
+[2022-07-11 16:22:13] (XEN) Intel VT-d Queued Invalidation enabled.
+[2022-07-11 16:22:13] (XEN) Intel VT-d Interrupt Remapping enabled.
+[2022-07-11 16:22:13] (XEN) Intel VT-d Posted Interrupt not enabled.
+[2022-07-11 16:22:13] (XEN) Intel VT-d Shared EPT tables enabled.
+[2022-07-11 16:22:13] (XEN) I/O virtualisation enabled
+[2022-07-11 16:22:13] (XEN)  - Dom0 mode: Relaxed
+[2022-07-11 16:22:13] (XEN) Interrupt remapping enabled
+[2022-07-11 16:22:13] (XEN) Enabled directed EOI with ioapic_ack_old on!
+[2022-07-11 16:22:13] (XEN) ENABLING IO-APIC IRQs
+[2022-07-11 16:22:13] (XEN)  -> Using old ACK method
+[2022-07-11 16:22:13] (XEN) Allocated console ring of 64 KiB.
+[2022-07-11 16:22:13] (XEN) VMX: Supported advanced features:
+[2022-07-11 16:22:13] (XEN)  - APIC MMIO access virtualisation
+[2022-07-11 16:22:13] (XEN)  - APIC TPR shadow
+[2022-07-11 16:22:13] (XEN)  - Extended Page Tables (EPT)
+[2022-07-11 16:22:13] (XEN)  - Virtual-Processor Identifiers (VPID)
+[2022-07-11 16:22:13] (XEN)  - Virtual NMI
+[2022-07-11 16:22:13] (XEN)  - MSR direct-access bitmap
+[2022-07-11 16:22:13] (XEN)  - Unrestricted Guest
+[2022-07-11 16:22:13] (XEN)  - APIC Register Virtualization
+[2022-07-11 16:22:13] (XEN)  - Virtual Interrupt Delivery
+[2022-07-11 16:22:13] (XEN)  - Posted Interrupt Processing
+[2022-07-11 16:22:13] (XEN)  - VMCS shadowing
+[2022-07-11 16:22:13] (XEN)  - VM Functions
+[2022-07-11 16:22:13] (XEN)  - Virtualisation Exceptions
+[2022-07-11 16:22:13] (XEN)  - TSC Scaling
+[2022-07-11 16:22:13] (XEN) HVM: ASIDs enabled.
+[2022-07-11 16:22:13] (XEN) HVM: VMX enabled
+[2022-07-11 16:22:13] (XEN) HVM: Hardware Assisted Paging (HAP) detected
+[2022-07-11 16:22:13] (XEN) HVM: HAP page sizes: 4kB, 2MB, 1GB
+[2022-07-11 16:22:13] (XEN) Brought up 14 CPUs
+[2022-07-11 16:22:13] (XEN) Scheduling granularity: cpu, 1 CPU per sched-resource
+[2022-07-11 16:22:13] (XEN) Dom0 has maximum 1160 PIRQs
+[2022-07-11 16:22:13] (XEN)  Xen  kernel: 64-bit, lsb, compat32
+[2022-07-11 16:22:13] (XEN)  Dom0 kernel: 64-bit, PAE, lsb, paddr 0x1000000 -> 0x4000000
+[2022-07-11 16:22:13] (XEN) PHYSICAL MEMORY ARRANGEMENT:
+[2022-07-11 16:22:13] (XEN)  Dom0 alloc.:   0000000838000000->0000000840000000 (1007383 pages to be allocated)
+[2022-07-11 16:22:13] (XEN)  Init. ramdisk: 000000085d717000->000000085f7ffa71
+[2022-07-11 16:22:13] (XEN) VIRTUAL MEMORY ARRANGEMENT:
+[2022-07-11 16:22:13] (XEN)  Loaded kernel: ffffffff81000000->ffffffff84000000
+[2022-07-11 16:22:13] (XEN)  Init. ramdisk: 0000000000000000->0000000000000000
+[2022-07-11 16:22:13] (XEN)  Phys-Mach map: 0000008000000000->0000008000800000
+[2022-07-11 16:22:13] (XEN)  Start info:    ffffffff84000000->ffffffff840004b8
+[2022-07-11 16:22:13] (XEN)  Xenstore ring: 0000000000000000->0000000000000000
+[2022-07-11 16:22:13] (XEN)  Console ring:  0000000000000000->0000000000000000
+[2022-07-11 16:22:13] (XEN)  Page tables:   ffffffff84001000->ffffffff84026000
+[2022-07-11 16:22:13] (XEN)  Boot stack:    ffffffff84026000->ffffffff84027000
+[2022-07-11 16:22:13] (XEN)  TOTAL:         ffffffff80000000->ffffffff84400000
+[2022-07-11 16:22:13] (XEN)  ENTRY ADDRESS: ffffffff831781c0
+[2022-07-11 16:22:13] (XEN) Dom0 has maximum 14 VCPUs
+[2022-07-11 16:22:13] (XEN) Initial low memory virq threshold set at 0x4000 pages.
+[2022-07-11 16:22:13] (XEN) Scrubbing Free RAM in background
+[2022-07-11 16:22:13] (XEN) Std. Loglevel: Errors and warnings
+[2022-07-11 16:22:13] (XEN) Guest Loglevel: Nothing (Rate-limited: Errors and warnings)
+[2022-07-11 16:22:13] (XEN) *** Serial input to DOM0 (type 'CTRL-a' three times to switch input)
+[2022-07-11 16:22:13] (XEN) Freed 580kB init memory

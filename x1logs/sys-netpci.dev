@@ -1,0 +1,155 @@
+00:00.0 Host bridge: Intel Corporation 440FX - 82441FX PMC [Natoma] (rev 02)
+	Subsystem: Red Hat, Inc. Qemu virtual machine
+	Flags: bus master, fast devsel, latency 0
+
+00:01.0 ISA bridge: Intel Corporation 82371SB PIIX3 ISA [Natoma/Triton II]
+	Subsystem: Red Hat, Inc. Qemu virtual machine
+	Physical Slot: 1
+	Flags: bus master, medium devsel, latency 0
+
+00:01.1 IDE interface: Intel Corporation 82371SB PIIX3 IDE [Natoma/Triton II] (prog-if 80 [ISA Compatibility mode-only controller, supports bus mastering])
+	Subsystem: Red Hat, Inc. Qemu virtual machine
+	Physical Slot: 1
+	Flags: bus master, medium devsel, latency 0
+	Memory at 000001f0 (32-bit, non-prefetchable) [virtual] [size=8]
+	Memory at 000003f0 (type 3, non-prefetchable) [virtual]
+	Memory at 00000170 (32-bit, non-prefetchable) [virtual] [size=8]
+	Memory at 00000370 (type 3, non-prefetchable) [virtual]
+	I/O ports at 1000 [virtual] [size=16]
+	Kernel driver in use: ata_piix
+	Kernel modules: pata_acpi, ata_generic
+
+00:01.3 Bridge: Intel Corporation 82371AB/EB/MB PIIX4 ACPI (rev 03)
+	Subsystem: Red Hat, Inc. Qemu virtual machine
+	Physical Slot: 1
+	Flags: bus master, medium devsel, latency 0, IRQ 9
+	Kernel modules: i2c_piix4
+
+00:02.0 Unassigned class [ff80]: XenSource, Inc. Xen Platform Device (rev 01)
+	Subsystem: XenSource, Inc. Xen Platform Device
+	Physical Slot: 2
+	Flags: bus master, fast devsel, latency 0, IRQ 24
+	I/O ports at c000 [size=256]
+	Memory at f0000000 (32-bit, prefetchable) [size=16M]
+	Kernel driver in use: xen-platform-pci
+
+00:04.0 VGA compatible controller: Device 1234:1111 (rev 02) (prog-if 00 [VGA controller])
+	Subsystem: Red Hat, Inc. Device 1100
+	Physical Slot: 4
+	Flags: bus master, fast devsel, latency 0
+	Memory at f1000000 (32-bit, prefetchable) [size=16M]
+	Memory at f20ba000 (32-bit, non-prefetchable) [size=4K]
+	Expansion ROM at 000c0000 [disabled] [size=128K]
+	Kernel modules: bochs
+
+00:05.0 USB controller: Intel Corporation 82801DB/DBM (ICH4/ICH4-M) USB2 EHCI Controller (rev 10) (prog-if 20 [EHCI])
+	Subsystem: Red Hat, Inc. QEMU Virtual Machine
+	Physical Slot: 5
+	Flags: bus master, fast devsel, latency 0, IRQ 39
+	Memory at f20bb000 (32-bit, non-prefetchable) [size=4K]
+	Kernel driver in use: ehci-pci
+	Kernel modules: ehci_pci
+
+00:06.0 SMBus: Intel Corporation Alder Lake PCH-P SMBus Host Controller (rev 01)
+	Subsystem: Lenovo Device 22fa
+	Physical Slot: 6
+	Flags: medium devsel, IRQ 40
+	Memory at f20a8000 (64-bit, non-prefetchable) [size=4K]
+	I/O ports at c200 [size=32]
+	Kernel driver in use: i801_smbus
+	Kernel modules: i2c_i801
+
+00:07.0 USB controller: Intel Corporation Alder Lake-P Thunderbolt 4 USB Controller (rev 02) (prog-if 30 [XHCI])
+	Subsystem: Lenovo Device 22fa
+	Physical Slot: 7
+	Flags: bus master, medium devsel, latency 64, IRQ 69
+	Memory at f2080000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: [70] Power Management version 2
+	Capabilities: [80] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [90] Vendor Specific Information: Len=14 <?>
+	Capabilities: [b0] Vendor Specific Information: Len=00 <?>
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+
+00:08.0 USB controller: Intel Corporation Alder Lake PCH USB 3.2 xHCI Host Controller (rev 01) (prog-if 30 [XHCI])
+	Subsystem: Lenovo Device 22fa
+	Physical Slot: 8
+	Flags: bus master, medium devsel, latency 64, IRQ 70
+	Memory at f2090000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: [70] Power Management version 2
+	Capabilities: [80] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [90] Vendor Specific Information: Len=14 <?>
+	Capabilities: [b0] Vendor Specific Information: Len=00 <?>
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+
+00:09.0 USB controller: Intel Corporation Alder Lake-P Thunderbolt 4 NHI #0 (rev 02) (prog-if 40 [USB4 Host Interface])
+	Subsystem: Lenovo Device 22fa
+	Physical Slot: 9
+	Flags: fast devsel, IRQ 21
+	Memory at f2000000 (64-bit, non-prefetchable) [size=256K]
+	Memory at f20a9000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [88] MSI: Enable- Count=1/1 Maskable- 64bit+
+	Kernel modules: thunderbolt
+
+00:0a.0 Communication controller: Intel Corporation Alder Lake PCH HECI Controller (rev 01)
+	Subsystem: Lenovo Device 22fa
+	Physical Slot: 10
+	Flags: bus master, fast devsel, latency 64, IRQ 72
+	Memory at f20aa000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [50] Power Management version 3
+	Capabilities: [8c] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [a4] Vendor Specific Information: Len=14 <?>
+	Kernel driver in use: mei_me
+	Kernel modules: mei_me
+
+00:0b.0 Network controller: Intel Corporation Alder Lake-P PCH CNVi WiFi (rev 01)
+	Subsystem: Intel Corporation Device 0090
+	Physical Slot: 11
+	Flags: bus master, fast devsel, latency 0, IRQ 73
+	Memory at f20a0000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: [c8] Power Management version 3
+	Capabilities: [d0] MSI: Enable+ Count=1/1 Maskable- 64bit+
+	Capabilities: [40] Express Root Complex Integrated Endpoint, MSI 00
+	Kernel driver in use: iwlwifi
+	Kernel modules: iwlwifi
+
+00:0c.0 Serial bus controller: Intel Corporation Alder Lake-P PCH SPI Controller (rev 01)
+	Subsystem: Lenovo Device 22fa
+	Physical Slot: 12
+	Flags: bus master, fast devsel, latency 0
+	Memory at f20bf000 (32-bit, non-prefetchable) [size=4K]
+
+00:0d.0 USB controller: Intel Corporation Alder Lake-P Thunderbolt 4 NHI #1 (rev 02) (prog-if 40 [USB4 Host Interface])
+	Subsystem: Lenovo Device 22fa
+	Physical Slot: 13
+	Flags: fast devsel, IRQ 37
+	Memory at f2040000 (64-bit, non-prefetchable) [size=256K]
+	Memory at f20ab000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [88] MSI: Enable- Count=1/1 Maskable- 64bit+
+	Kernel modules: thunderbolt
+
+00:0e.0 Serial bus controller: Intel Corporation Alder Lake PCH Serial IO I2C Controller #0 (rev 01)
+	Subsystem: Lenovo Device 22fa
+	Physical Slot: 14
+	Flags: bus master, fast devsel, latency 64, IRQ 41
+	Memory at f20ac000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [90] Vendor Specific Information: Len=14 <?>
+	Kernel driver in use: intel-lpss
+
+00:0f.0 ISA bridge: Intel Corporation Alder Lake PCH eSPI Controller (rev 01)
+	Subsystem: Lenovo Device 22fa
+	Physical Slot: 15
+	Flags: bus master, fast devsel, latency 0
+
+00:10.0 RAM memory: Intel Corporation Alder Lake PCH Shared SRAM (rev 01)
+	Subsystem: Lenovo Device 22fa
+	Physical Slot: 16
+	Flags: bus master, fast devsel, latency 0
+	Memory at f20a4000 (64-bit, non-prefetchable) [size=16K]
+	Memory at f20ad000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [80] Power Management version 3
+

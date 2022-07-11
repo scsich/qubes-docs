@@ -1,0 +1,250 @@
+00:00.0 Host bridge: Intel Corporation 12th Gen Core Processor Host Bridge/DRAM Registers (rev 02)
+	Subsystem: Lenovo Device 22fa
+	Flags: bus master, fast devsel, latency 0
+	Capabilities: [e0] Vendor Specific Information: Len=14 <?>
+	Kernel driver in use: igen6_edac
+	Kernel modules: igen6_edac
+
+00:02.0 VGA compatible controller: Intel Corporation Alder Lake-P Integrated Graphics Controller (rev 0c) (prog-if 00 [VGA controller])
+	Subsystem: Lenovo Device 22fa
+	Flags: bus master, fast devsel, latency 0, IRQ 223
+	Memory at 603d000000 (64-bit, non-prefetchable) [size=16M]
+	Memory at 4000000000 (64-bit, prefetchable) [size=512M]
+	I/O ports at 2000 [size=64]
+	Expansion ROM at 000c0000 [virtual] [disabled] [size=128K]
+	Capabilities: [40] Vendor Specific Information: Len=0c <?>
+	Capabilities: [70] Express Root Complex Integrated Endpoint, MSI 00
+	Capabilities: [ac] MSI: Enable+ Count=1/1 Maskable+ 64bit-
+	Capabilities: [d0] Power Management version 2
+	Capabilities: [100] Process Address Space ID (PASID)
+	Capabilities: [200] Address Translation Service (ATS)
+	Capabilities: [300] Page Request Interface (PRI)
+	Capabilities: [320] Single Root I/O Virtualization (SR-IOV)
+	Kernel driver in use: i915
+	Kernel modules: i915
+
+00:04.0 Signal processing controller: Intel Corporation Alder Lake Innovation Platform Framework Processor Participant (rev 02)
+	Subsystem: Lenovo Device 22fa
+	Flags: bus master, fast devsel, latency 0, IRQ 224
+	Memory at 603e080000 (64-bit, non-prefetchable) [size=128K]
+	Capabilities: [90] MSI: Enable+ Count=1/1 Maskable- 64bit-
+	Capabilities: [d0] Power Management version 3
+	Capabilities: [e0] Vendor Specific Information: Len=0c <?>
+	Kernel driver in use: proc_thermal_pci
+	Kernel modules: processor_thermal_device_pci
+
+00:05.0 Multimedia controller: Intel Corporation Device 465d (rev 02)
+	Subsystem: Lenovo Device 22fa
+	Flags: fast devsel, IRQ 255
+	Memory at 603c000000 (64-bit, non-prefetchable) [disabled] [size=16M]
+	Capabilities: [70] Express Root Complex Integrated Endpoint, MSI 00
+	Capabilities: [d0] Power Management version 3
+
+00:06.0 PCI bridge: Intel Corporation 12th Gen Core Processor PCI Express x4 Controller #0 (rev 02) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 206
+	Bus: primary=00, secondary=04, subordinate=04, sec-latency=0
+	I/O behind bridge: [disabled]
+	Memory behind bridge: bc200000-bc2fffff [size=1M]
+	Prefetchable memory behind bridge: [disabled]
+	Capabilities: [40] Express Root Port (Slot+), MSI 00
+	Capabilities: [80] MSI: Enable+ Count=1/1 Maskable- 64bit-
+	Capabilities: [90] Subsystem: Lenovo Device 22fa
+	Capabilities: [a0] Power Management version 3
+	Capabilities: [100] Advanced Error Reporting
+	Capabilities: [220] Access Control Services
+	Capabilities: [200] L1 PM Substates
+	Capabilities: [150] Precision Time Measurement
+	Capabilities: [280] Virtual Channel
+	Capabilities: [a30] Secondary PCI Express
+	Capabilities: [a90] Data Link Feature <?>
+	Capabilities: [a9c] Physical Layer 16.0 GT/s <?>
+	Capabilities: [edc] Lane Margining at the Receiver <?>
+	Kernel driver in use: pcieport
+
+00:07.0 PCI bridge: Intel Corporation Alder Lake-P Thunderbolt 4 PCI Express Root Port #0 (rev 02) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 207
+	Bus: primary=00, secondary=20, subordinate=49, sec-latency=0
+	I/O behind bridge: 00003000-00003fff [size=4K]
+	Memory behind bridge: b0000000-bc1fffff [size=194M]
+	Prefetchable memory behind bridge: 0000006000000000-000000601bffffff [size=448M]
+	Capabilities: [40] Express Root Port (Slot+), MSI 00
+	Capabilities: [80] MSI: Enable+ Count=1/1 Maskable- 64bit-
+	Capabilities: [90] Subsystem: Lenovo Device 22fa
+	Capabilities: [a0] Power Management version 3
+	Capabilities: [100] Advanced Error Reporting
+	Capabilities: [220] Access Control Services
+	Capabilities: [150] Precision Time Measurement
+	Capabilities: [a00] Downstream Port Containment
+	Capabilities: [a30] Secondary PCI Express
+	Capabilities: [a90] Data Link Feature <?>
+	Capabilities: [ba0] Physical Resizable BAR
+	Kernel driver in use: pcieport
+
+00:07.2 PCI bridge: Intel Corporation Alder Lake-P Thunderbolt 4 PCI Express Root Port #2 (rev 02) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 208
+	Bus: primary=00, secondary=50, subordinate=79, sec-latency=0
+	I/O behind bridge: 00004000-00004fff [size=4K]
+	Memory behind bridge: a2000000-ae1fffff [size=194M]
+	Prefetchable memory behind bridge: 0000006020000000-000000603bffffff [size=448M]
+	Capabilities: [40] Express Root Port (Slot+), MSI 00
+	Capabilities: [80] MSI: Enable+ Count=1/1 Maskable- 64bit-
+	Capabilities: [90] Subsystem: Lenovo Device 22fa
+	Capabilities: [a0] Power Management version 3
+	Capabilities: [100] Advanced Error Reporting
+	Capabilities: [220] Access Control Services
+	Capabilities: [150] Precision Time Measurement
+	Capabilities: [a00] Downstream Port Containment
+	Capabilities: [a30] Secondary PCI Express
+	Capabilities: [a90] Data Link Feature <?>
+	Capabilities: [ba0] Physical Resizable BAR
+	Kernel driver in use: pcieport
+
+00:08.0 System peripheral: Intel Corporation 12th Gen Core Processor Gaussian & Neural Accelerator (rev 02)
+	Subsystem: Lenovo Device 22fa
+	Flags: fast devsel, IRQ 255
+	Memory at 603e0e6000 (64-bit, non-prefetchable) [disabled] [size=4K]
+	Capabilities: [90] MSI: Enable- Count=1/1 Maskable- 64bit-
+	Capabilities: [a0] Vendor Specific Information: Len=14 <?>
+	Capabilities: [dc] Power Management version 2
+	Capabilities: [f0] PCI Advanced Features
+
+00:0a.0 Signal processing controller: Intel Corporation Platform Monitoring Technology (rev 01)
+	Subsystem: Lenovo Device 22fa
+	Flags: fast devsel
+	Memory at 603e0d0000 (64-bit, non-prefetchable) [size=32K]
+	Capabilities: [70] Express Root Complex Integrated Endpoint, MSI 00
+	Capabilities: [d0] Power Management version 3
+	Capabilities: [100] Designated Vendor-Specific: Vendor=8086 ID=0002 Rev=1 Len=16 <?>
+	Capabilities: [110] Designated Vendor-Specific: Vendor=8086 ID=0003 Rev=1 Len=16 <?>
+	Capabilities: [120] Designated Vendor-Specific: Vendor=8086 ID=0004 Rev=1 Len=16 <?>
+	Kernel driver in use: intel_vsec
+	Kernel modules: intel_vsec
+
+00:0d.0 USB controller: Intel Corporation Alder Lake-P Thunderbolt 4 USB Controller (rev 02) (prog-if 30 [XHCI])
+	Subsystem: Lenovo Device 22fa
+	Flags: medium devsel
+	Memory at 603e0c0000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: [70] Power Management version 2
+	Capabilities: [80] MSI: Enable- Count=1/8 Maskable- 64bit+
+	Capabilities: [90] Vendor Specific Information: Len=14 <?>
+	Capabilities: [b0] Vendor Specific Information: Len=00 <?>
+	Kernel driver in use: pciback
+	Kernel modules: xhci_pci
+
+00:0d.2 USB controller: Intel Corporation Alder Lake-P Thunderbolt 4 NHI #0 (rev 02) (prog-if 40 [USB4 Host Interface])
+	Subsystem: Lenovo Device 22fa
+	Flags: fast devsel, IRQ 16
+	Memory at 603e040000 (64-bit, non-prefetchable) [size=256K]
+	Memory at 603e0e5000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [88] MSI: Enable- Count=1/1 Maskable- 64bit+
+	Capabilities: [a0] MSI-X: Enable- Count=16 Masked-
+	Kernel driver in use: pciback
+	Kernel modules: thunderbolt
+
+00:0d.3 USB controller: Intel Corporation Alder Lake-P Thunderbolt 4 NHI #1 (rev 02) (prog-if 40 [USB4 Host Interface])
+	Subsystem: Lenovo Device 22fa
+	Flags: fast devsel, IRQ 16
+	Memory at 603e000000 (64-bit, non-prefetchable) [size=256K]
+	Memory at 603e0e4000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [88] MSI: Enable- Count=1/1 Maskable- 64bit+
+	Capabilities: [a0] MSI-X: Enable- Count=16 Masked-
+	Kernel driver in use: pciback
+	Kernel modules: thunderbolt
+
+00:12.0 Serial controller: Intel Corporation Device 51fc (rev 01) (prog-if 00 [8250])
+	Subsystem: Lenovo Device 22fa
+	Flags: bus master, fast devsel, latency 0, IRQ 26
+	Memory at 603e0b0000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [90] Vendor Specific Information: Len=14 <?>
+	Kernel driver in use: intel_ish_ipc
+	Kernel modules: intel_ish_ipc
+
+00:14.0 USB controller: Intel Corporation Alder Lake PCH USB 3.2 xHCI Host Controller (rev 01) (prog-if 30 [XHCI])
+	Subsystem: Lenovo Device 22fa
+	Flags: medium devsel, IRQ 16
+	Memory at 603e0a0000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: [70] Power Management version 2
+	Capabilities: [80] MSI: Enable- Count=1/8 Maskable- 64bit+
+	Capabilities: [90] Vendor Specific Information: Len=14 <?>
+	Capabilities: [b0] Vendor Specific Information: Len=00 <?>
+	Kernel driver in use: pciback
+	Kernel modules: xhci_pci
+
+00:14.2 RAM memory: Intel Corporation Alder Lake PCH Shared SRAM (rev 01)
+	Subsystem: Lenovo Device 22fa
+	Flags: fast devsel
+	Memory at 603e0dc000 (64-bit, non-prefetchable) [size=16K]
+	Memory at 603e0e3000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [80] Power Management version 3
+	Kernel driver in use: pciback
+
+00:14.3 Network controller: Intel Corporation Alder Lake-P PCH CNVi WiFi (rev 01)
+	Subsystem: Intel Corporation Device 0090
+	Flags: fast devsel, IRQ 16
+	Memory at 603e0d8000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: [c8] Power Management version 3
+	Capabilities: [d0] MSI: Enable- Count=1/1 Maskable- 64bit+
+	Capabilities: [40] Express Root Complex Integrated Endpoint, MSI 00
+	Capabilities: [80] MSI-X: Enable- Count=16 Masked-
+	Capabilities: [100] Latency Tolerance Reporting
+	Capabilities: [164] Vendor Specific Information: ID=0010 Rev=0 Len=014 <?>
+	Kernel driver in use: pciback
+	Kernel modules: iwlwifi
+
+00:15.0 Serial bus controller: Intel Corporation Alder Lake PCH Serial IO I2C Controller #0 (rev 01)
+	Subsystem: Lenovo Device 22fa
+	Flags: fast devsel, IRQ 27
+	Memory at 4107000000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [90] Vendor Specific Information: Len=14 <?>
+	Kernel driver in use: pciback
+
+00:16.0 Communication controller: Intel Corporation Alder Lake PCH HECI Controller (rev 01)
+	Subsystem: Lenovo Device 22fa
+	Flags: fast devsel, IRQ 16
+	Memory at 603e0e1000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: [50] Power Management version 3
+	Capabilities: [8c] MSI: Enable- Count=1/1 Maskable- 64bit+
+	Capabilities: [a4] Vendor Specific Information: Len=14 <?>
+	Kernel driver in use: pciback
+	Kernel modules: mei_me
+
+00:1f.0 ISA bridge: Intel Corporation Alder Lake PCH eSPI Controller (rev 01)
+	Subsystem: Lenovo Device 22fa
+	Flags: fast devsel
+	Kernel driver in use: pciback
+
+00:1f.4 SMBus: Intel Corporation Alder Lake PCH-P SMBus Host Controller (rev 01)
+	Subsystem: Lenovo Device 22fa
+	Flags: medium devsel, IRQ 16
+	Memory at 603e0e0000 (64-bit, non-prefetchable) [size=256]
+	I/O ports at efa0 [size=32]
+	Kernel driver in use: pciback
+	Kernel modules: i2c_i801
+
+00:1f.5 Serial bus controller: Intel Corporation Alder Lake-P PCH SPI Controller (rev 01)
+	Subsystem: Lenovo Device 22fa
+	Flags: fast devsel
+	Memory at a0800000 (32-bit, non-prefetchable) [size=4K]
+	Kernel driver in use: pciback
+
+04:00.0 Non-Volatile memory controller: Solid State Storage Technology Corporation Device 1007 (rev 03) (prog-if 02 [NVM Express])
+	Subsystem: Silicon Motion, Inc. Device 2267
+	Flags: bus master, fast devsel, latency 0, IRQ 16, NUMA node 0
+	Memory at bc200000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: [40] Power Management version 3
+	Capabilities: [50] MSI: Enable- Count=1/8 Maskable+ 64bit+
+	Capabilities: [70] Express Endpoint, MSI 00
+	Capabilities: [b0] MSI-X: Enable+ Count=16 Masked-
+	Capabilities: [100] Advanced Error Reporting
+	Capabilities: [158] Secondary PCI Express
+	Capabilities: [178] Physical Layer 16.0 GT/s <?>
+	Capabilities: [19c] Lane Margining at the Receiver <?>
+	Capabilities: [1b4] Latency Tolerance Reporting
+	Capabilities: [1bc] L1 PM Substates
+	Kernel driver in use: nvme
+	Kernel modules: nvme
+
